@@ -5,7 +5,11 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Tema 3
+      h1 Monitoreo vial
+
+    #t_3_1.titulo-segundo.color-acento-contenido
+      .h2(data-aos="fade-right") 3.1 Concepto
+    .mb-3
 
 </template>
 
