@@ -75,8 +75,18 @@
     overflow: hidden 
     *
       color: textColor($color-sistema-h)
+  &--color-primario-10
+    background-color: $color-primario-10
+    border-radius: 20px
+    padding: 12rem 1rem 1rem 1rem 
+    position: relative
+    display: flex
+    flex-direction: column
+    overflow: hidden 
+    *
+      color: textColor($color-sistema-h)
     &--borde
-      background-image: url('../assets/curso/temas/tema_1/img_10.png')
+      background-color: $color-primario-10
       color: textColor(lighten($color-sistema-h, 50%))
       border: solid 4px $color-sistema-h
 
@@ -113,6 +123,30 @@
   &--6::before
     position: absolute
     content: url('../assets/curso/temas/tema_1/img_9.svg')
+    top: 60px
+    left: 50%
+    transform: translateX(-50%)
+  &--7::before
+    position: absolute
+    content: url('../assets/curso/temas/tema_3/img_19.svg')
+    top: 60px
+    left: 50%
+    transform: translateX(-50%)
+  &--8::before
+    position: absolute
+    content: url('../assets/curso/temas/tema_3/img_20.svg')
+    top: 60px
+    left: 50%
+    transform: translateX(-50%)
+  &--9::before
+    position: absolute
+    content: url('../assets/curso/temas/tema_3/img_21.svg')
+    top: 60px
+    left: 50%
+    transform: translateX(-50%)
+  &--10::before
+    position: absolute
+    content: url('../assets/curso/temas/tema_3/img_22.svg')
     top: 60px
     left: 50%
     transform: translateX(-50%)
