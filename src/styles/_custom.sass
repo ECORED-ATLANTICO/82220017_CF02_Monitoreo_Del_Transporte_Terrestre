@@ -101,7 +101,7 @@ figcaption
       content: ''
       position: absolute
       margin: 0
-      top: 40px
+      top: -160px
       left: -48px
       width: calc(100% + 96px)
       height: 100%
@@ -158,6 +158,20 @@ figcaption
     .linea-tiempo-c__header__btn--left
       background-color: $color-acento-botones
       border-color: $color-acento-botones
+  &_4
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/temas/tema_4/img_17.png') !important
+      background-repeat: no-repeat
 
 ///BG_color
 .bg-color-acento-contenido

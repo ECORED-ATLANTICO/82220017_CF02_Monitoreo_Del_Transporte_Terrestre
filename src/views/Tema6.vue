@@ -5,7 +5,12 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 6
-      h1 Tema 6
+      h1 Procedimiento
+
+    #t_6_1.titulo-segundo.color-acento-contenido
+      .h2(data-aos="fade-right") 6.1 Proceso continuo
+    .mb-3
+    
 
 
 </template>

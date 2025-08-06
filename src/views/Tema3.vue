@@ -207,16 +207,16 @@
     .row.justify-content-center.align-items-center
       .col-12.col-lg-7.mb-lg-0.order-2.order-lg-1.mb-3(data-aos='zoom-in-right')
         .tarjeta.color-primario-10.p-4.rounded-0.mb-0
-          p.mb-0 Importancia de la medición la aplicar estos criterios permite:
+          p.mb-3 Importancia de la medición la aplicar estos criterios permite:
           ul
             li
-              i.fa-solid.fa-circle-check(style="color: #4C77AE; font-size: 15px").mb-0
+              i.fa-solid.fa-circle-check(style="color: #4C77AE; font-size: 15px").mb-2
               |   Optimizar la toma de decisiones en políticas públicas.
             li
-              i.fa-solid.fa-circle-check(style="color: #4C77AE; font-size: 15px").mb-0
+              i.fa-solid.fa-circle-check(style="color: #4C77AE; font-size: 15px").mb-2
               |   Justificar inversiones en infraestructura tecnológica.
             li
-              i.fa-solid.fa-circle-check(style="color: #4C77AE; font-size: 15px").mb-0
+              i.fa-solid.fa-circle-check(style="color: #4C77AE; font-size: 15px").mb-2
               |   Reducir los riesgos operacionales y mejorar la seguridad.
             li
               i.fa-solid.fa-circle-check(style="color: #4C77AE; font-size: 15px").mb-0

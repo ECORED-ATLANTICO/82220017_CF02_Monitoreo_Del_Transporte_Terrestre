@@ -57,7 +57,7 @@
               p.ps-5.mb-0 Menos contaminación y ruido se traducen en una mejor calidad del aire, una reducción de enfermedades respiratorias y una mejora general en la salud de la población. Además, la promoción de modos de transporte activos como caminar y andar en bicicleta contribuye a una sociedad más saludable.
             div(titulo="Viabilidad económica y social")
               p.ps-5.mb-0 La inversión inicial en infraestructura y tecnologías sostenibles puede ser alta, a largo plazo se traduce en menores costos de operación y mantenimiento. Además, una movilidad accesible y equitativa mejora la inclusión social y fomenta el desarrollo económico al facilitar el acceso a oportunidades laborales y servicios.
-        .col-9.col-lg-3.order-1.order-lg-2.mb-3(data-aos="flip-left")
+        .col-9.col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="flip-left")
           figure
             img(src='@/assets/curso/temas/tema_2/img_4.png', class="img-fluid")
     
@@ -69,37 +69,35 @@
     .mb-3
 
     .row.justify-content-center.align-items-center.mb-0
-        .col-12.col-lg-4.mb-lg-0.mb-3(data-aos="zoom-in-right")
-          figure(data-aos="zoom-out-up")
-            img(src='@/assets/curso/temas/tema_2/img_5.png', class="img-fluid")
-        .col-12.col-lg-8.mb-0
-          TabsA.mb-0.tarjeta-tabs-a.color-primario-10
-            .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Electrificación masiva de flotas")
-              .row.justify-content-center.align-items-center.mb-0
-                .col-12
-                  p.mb-0 la transición hacia vehículos eléctricos, desde automóviles particulares hasta autobuses y camiones de carga, es la tendencia más visible. Esto implica un desafío y una oportunidad para ustedes en la instalación y mantenimiento de infraestructura de carga, diagnóstico de sistemas eléctricos y gestión de baterías.
-            .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Movilidad como Servicio (<I>Mobility as a Service: “MaaS”</I>)")
-              .row.justify-content-center.align-items-center.mb-0
-                .col-12
-                  p.mb-0 integra diversas opciones de transporte en una sola plataforma digital, permitiendo a los usuarios planificar, reservar y pagar sus viajes de manera fluida. El conocimiento en sistemas de información, conectividad y análisis de datos será fundamental para optimizar rutas y servicios.
-            .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Vehículos autónomos y conectados")
-              .row.justify-content-center.align-items-center.mb-0
-                .col-12
-                  p.mb-0 los vehículos autónomos prometen optimizar el flujo del tráfico, reducir accidentes y mejorar la eficiencia energética. La conectividad vehicular (<I>V2V, V2I</I>) permitirá una comunicación fluida entre vehículos e infraestructura, lo que exigirá expertos en redes, sensores y ciberseguridad.
-            .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Micro movilidad y transporte activo")
-              .row.justify-content-center.align-items-center.mb-0
-                .col-12
-                  p.mb-0 el auge de las bicicletas eléctricas, patinetes y otros vehículos ligeros para trayectos cortos está redefiniendo los paisajes urbanos. La participación en el diseño de ciclovías, mantenimiento de estos vehículos y sistemas de alquiler será crucial.
-            .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Optimización y logística verde")
-              .row.justify-content-center.align-items-center.mb-0
-                .col-12
-                  p.mb-0 la aplicación de tecnologías como la inteligencia artificial, el <I>Big Data</I> y el Internet de las Cosas (<I>IoT</I>) permite optimizar rutas, gestionar flotas de manera más eficiente y reducir el consumo de combustible y las emisiones en el transporte de mercancías. 
-            .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Desarrollo de infraestructura inteligente")
-              .row.justify-content-center.align-items-center.mb-0
-                .col-12
-                  p.mb-0 ciudades y vías inteligentes que integran sensores, sistemas de gestión de tráfico adaptativos y puntos de carga para vehículos eléctricos, son el futuro.
-                 
-
+      .col-12.col-lg-4.mb-lg-0.mb-3(data-aos="zoom-in-right")
+        figure(data-aos="zoom-out-up")
+          img(src='@/assets/curso/temas/tema_2/img_5.png', class="img-fluid")
+      .col-12.col-lg-8.mb-0
+        TabsA.mb-0.tarjeta-tabs-a.color-primario-10
+          .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Electrificación masiva de flotas")
+            .row.justify-content-center.align-items-center.mb-0
+              .col-12
+                p.mb-0 la transición hacia vehículos eléctricos, desde automóviles particulares hasta autobuses y camiones de carga, es la tendencia más visible. Esto implica un desafío y una oportunidad para ustedes en la instalación y mantenimiento de infraestructura de carga, diagnóstico de sistemas eléctricos y gestión de baterías.
+          .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Movilidad como Servicio (<I>Mobility as a Service: “MaaS”</I>)")
+            .row.justify-content-center.align-items-center.mb-0
+              .col-12
+                p.mb-0 integra diversas opciones de transporte en una sola plataforma digital, permitiendo a los usuarios planificar, reservar y pagar sus viajes de manera fluida. El conocimiento en sistemas de información, conectividad y análisis de datos será fundamental para optimizar rutas y servicios.
+          .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Vehículos autónomos y conectados")
+            .row.justify-content-center.align-items-center.mb-0
+              .col-12
+                p.mb-0 los vehículos autónomos prometen optimizar el flujo del tráfico, reducir accidentes y mejorar la eficiencia energética. La conectividad vehicular (<I>V2V, V2I</I>) permitirá una comunicación fluida entre vehículos e infraestructura, lo que exigirá expertos en redes, sensores y ciberseguridad.
+          .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Micro movilidad y transporte activo")
+            .row.justify-content-center.align-items-center.mb-0
+              .col-12
+                p.mb-0 el auge de las bicicletas eléctricas, patinetes y otros vehículos ligeros para trayectos cortos está redefiniendo los paisajes urbanos. La participación en el diseño de ciclovías, mantenimiento de estos vehículos y sistemas de alquiler será crucial.
+          .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Optimización y logística verde")
+            .row.justify-content-center.align-items-center.mb-0
+              .col-12
+                p.mb-0 la aplicación de tecnologías como la inteligencia artificial, el <I>Big Data</I> y el Internet de las Cosas (<I>IoT</I>) permite optimizar rutas, gestionar flotas de manera más eficiente y reducir el consumo de combustible y las emisiones en el transporte de mercancías. 
+          .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Desarrollo de infraestructura inteligente")
+            .row.justify-content-center.align-items-center.mb-0
+              .col-12
+                p.mb-0 ciudades y vías inteligentes que integran sensores, sistemas de gestión de tráfico adaptativos y puntos de carga para vehículos eléctricos, son el futuro.
 </template>
 
 <script>
