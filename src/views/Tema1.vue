@@ -25,6 +25,7 @@
       #t_1_2.titulo-segundo.color-acento-contenido
         .h2(data-aos="fade-right") 1.2 Importancia
       .mb-3
+      
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-1.d-lg-block.d-none.mb-lg-0.mb-3(data-aos="zoom-in-right")
           figure
