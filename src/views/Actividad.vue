@@ -17,10 +17,11 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema:
+        'Gestión inteligente del monitoreo vial, sistemas integrados de monitoreo.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> proporcionar a los participantes los conocimientos, competencias técnicas necesarias para analizar, implementar y optimizar sistemas de monitoreo vial que contribuyan a una gestión eficiente, segura y sostenible del transporte. Permitiendo generar criterios de medición y planificación estratégica, se busca que los profesionales sean capaces de tomar decisiones informadas, mejorar la trazabilidad operativa y fortalecer la prevención de riesgos en las redes viales, en alineación con las demandas actuales de monitoreo estratégico y control logístico.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!..',
       titulo_reprobado: 'VUELVA A INTENTARLO..',
@@ -28,257 +29,191 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            'El monitoreo del transporte terrestre permite únicamente registrar la ubicación de los vehículos.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Verdadero',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+              texto: 'Falso',
               esCorrecta: true,
             },
-            {
-              id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
-              esCorrecta: false,
-            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente respuesta, vamos ánimo que faltan pocas preguntas por responder.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido formativo, para mejorar tu respuesta',
         },
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
+            'El uso compartido de vehículos ayuda a reducir la congestión y la contaminación en las ciudades.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: '<em>Auto</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Text</em>',
+              texto: 'Verdadero',
               esCorrecta: true,
             },
             {
-              id: 'd',
-              texto: '<em>Route</em>',
+              id: 'b',
+              texto: 'Falso',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente respuesta, vamos ánimo que faltan pocas preguntas por responder.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido formativo, para mejorar tu respuesta',
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          texto:
+            'El monitoreo terrestre se implementa exclusivamente en zonas urbanas.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto: 'Verdadero',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Para agregar nuevas capas.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
+              texto: 'Falso',
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente respuesta, vamos ánimo que faltan pocas preguntas por responder.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido formativo, para mejorar tu respuesta',
         },
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+            'Las tecnologías de geolocalización son fundamentales en el monitoreo del transporte terrestre.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Board</em>',
+              texto: 'Verdadero',
               esCorrecta: true,
             },
             {
-              id: 'd',
-              texto: '<em>Route</em>',
+              id: 'b',
+              texto: 'Falso',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente respuesta, vamos ánimo que faltan pocas preguntas por responder.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido formativo, para mejorar tu respuesta',
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
+          texto:
+            ' La velocidad promedio, el tiempo de recorrido y la frecuencia de paso son ejemplos de criterios de medición vial.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
+              texto: 'Verdadero',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Falso',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente respuesta, vamos ánimo que faltan pocas preguntas por responder.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido formativo, para mejorar tu respuesta',
         },
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+            ' Los criterios de medición vehicular se definen únicamente por las autoridades de tránsito locales.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
+              texto: 'Verdadero',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
+              texto: 'Falso',
               esCorrecta: true,
             },
-            {
-              id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Seleccionar y editar capas.',
-              esCorrecta: false,
-            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente respuesta, vamos ánimo que faltan pocas preguntas por responder.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido formativo, para mejorar tu respuesta',
         },
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+            'La precisión y confiabilidad de los datos son aspectos clave en la selección de criterios de medición.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
+              texto: 'Verdadero',
               esCorrecta: true,
             },
             {
-              id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
+              id: 'b',
+              texto: 'Falso',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente respuesta, vamos ánimo que faltan pocas preguntas por responder.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido formativo, para mejorar tu respuesta',
         },
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+            'No es necesario establecer criterios de medición para evaluar el desempeño de un sistema de monitoreo.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Verdadero',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'Falso',
+              esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente respuesta, vamos ánimo que faltan pocas preguntas por responder.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido formativo, para mejorar tu respuesta',
         },
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
+            'El transporte público eficiente es un pilar clave de la movilidad sostenible.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -293,13 +228,15 @@ export default {
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente respuesta, vamos ánimo que faltan pocas preguntas por responder.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido formativo, para mejorar tu respuesta',
         },
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
+            'Las cámaras de videovigilancia, sensores de peso y radares son herramientas utilizadas en el monitoreo vial.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -314,13 +251,15 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente respuesta, vamos ánimo que faltan pocas preguntas por responder.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido formativo, para mejorar tu respuesta',
         },
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+            'Los métodos de monitoreo ya no se utilizan en ninguna parte del mundo.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -335,13 +274,15 @@ export default {
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente respuesta, vamos ánimo que faltan pocas preguntas por responder.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido formativo, para mejorar tu respuesta',
         },
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            'Los sensores inductivos permiten detectar el paso de vehículos mediante campos magnéticos.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -356,34 +297,38 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente respuesta, vamos ánimo que faltan pocas preguntas por responder.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido formativo, para mejorar tu respuesta',
         },
         {
           id: 13,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
+            'La medición de emisiones contaminantes no es relevante para el monitoreo vial.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: false,
+              esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente respuesta, vamos ánimo que faltan pocas preguntas por responder.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido formativo, para mejorar tu respuesta',
         },
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            'Solo se consideran datos cuantitativos en los criterios de medición.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -398,13 +343,15 @@ export default {
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente respuesta, vamos ánimo que faltan pocas preguntas por responder.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido formativo, para mejorar tu respuesta',
         },
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+            'La selección de criterios de medición depende del objetivo del monitoreo.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -419,13 +366,131 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente respuesta, vamos ánimo que faltan pocas preguntas por responder.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido formativo, para mejorar tu respuesta',
+        },
+        {
+          id: 16,
+          texto:
+            'Los datos recopilados por herramientas de monitoreo pueden integrarse a plataformas de análisis predictivo.',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Excelente respuesta, vamos ánimo que faltan pocas preguntas por responder.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido formativo, para mejorar tu respuesta',
+        },
+        {
+          id: 17,
+          texto:
+            'Los sistemas de monitoreo no necesitan conectividad en tiempo real para ser efectivos.',
+          imagen: require('@/assets/actividad/imagen5.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Excelente respuesta, vamos ánimo que faltan pocas preguntas por responder.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido formativo, para mejorar tu respuesta',
+        },
+        {
+          id: 18,
+          texto:
+            'Los drones se están incorporando como herramienta emergente de monitoreo vial.',
+          imagen: require('@/assets/actividad/imagen5.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Excelente respuesta, vamos ánimo que faltan pocas preguntas por responder.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido formativo, para mejorar tu respuesta',
+        },
+        {
+          id: 19,
+          texto:
+            'Las cámaras LPR (reconocimiento de placas) permiten identificar vehículos en circulación.',
+          imagen: require('@/assets/actividad/imagen5.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Excelente respuesta, vamos ánimo que faltan pocas preguntas por responder.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido formativo, para mejorar tu respuesta',
+        },
+        {
+          id: 20,
+          texto:
+            'Las herramientas de monitoreo no requieren calibración una vez instaladas.',
+          imagen: require('@/assets/actividad/imagen5.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Excelente respuesta, vamos ánimo que faltan pocas preguntas por responder.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido formativo, para mejorar tu respuesta',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado:
+        '¡Excelente! Te felicito, ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+        'No ha superado la actividad. Pero podemos mejorar nuestras respuestas, te invitamos a revisar el componente formativo.',
     },
   }),
 }

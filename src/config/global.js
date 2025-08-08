@@ -257,21 +257,180 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: 'Sitio web',
-      link: '',
+      tema: 'Movilidad inteligente',
+      referencia:
+        'Descubrimiento Latinoamérica. (2013, 4 de abril). <em>¿Cómo funciona el GPS? | ¿Cómo lo hacen?</em> [Video]. YouTube. ',
+      tipo: 'VIDEO',
+      link: 'https://www.youtube.com/watch?v=kQE9FpUcp4c',
+    },
+    {
+      tema: 'Sostenibilidad en la movilidad',
+      referencia:
+        'DW Español. (2021, 15 de julio). <em>La movilidad del futuro</em> [Vídeo]. YouTube.',
+      tipo: 'VIDEO',
+      link: 'https://www.youtube.com/watch?v=-xdJ_2mSig8',
+    },
+    {
+      tema: 'Plan de monitoreo vial',
+      referencia:
+        'Departamento Nacional de Planeación. (2017). <em>Manual de innovación en movilidad y transporte.</em> DNP. ',
+      tipo: 'MANUAL PDF',
+      link:
+        'https://portalterritorial.dnp.gov.co/KitOT/Content/uploads/Manual%20innovacion%20Movilidad%20y%20Transporte%20PDF.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Accesibilidad universal',
+      significado:
+        'Diseño de transporte e infraestructura para que pueda ser utilizada por todas las personas, incluidas con discapacidad.',
+    },
+    {
+      termino: 'Análisis predictivo',
+      significado:
+        'Es una técnica que utiliza datos históricos, estadísticas y modelos matemáticos o algoritmos de inteligencia artificial para anticipar posibles eventos o comportamientos futuros.',
+    },
+    {
+      termino: 'Autonomía vehicular',
+      significado:
+        'Capacidad de un vehículo para operar sin intervención humana, usando sensores, inteligencia artificial y sistemas de navegación.',
+    },
+    {
+      termino: 'Auditoría vial',
+      significado:
+        'Evaluación técnica de una vía para identificar riesgos y proponer mejoras.',
+    },
+    {
+      termino: '<em>Big data</em>',
+      significado:
+        'o también se puede llamar gestión de datos masivos, consiste en recolectar, almacenar, procesar y analizar grandes volúmenes de datos, estructurados o no, para obtener información útil que apoye la toma de decisiones, predicciones o mejoras operativas.',
+    },
+    {
+      termino: 'Combustibles fósiles',
+      significado:
+        'Son fuentes de energía no renovable formadas por la descomposición de materia orgánica durante millones de años. Incluyen el petróleo, el carbón y el gas natural, y su uso genera contaminación ambiental.',
+    },
+    {
+      termino: 'Congestión vial',
+      significado:
+        'Acumulación excesiva de vehículos en las vías que provoca lentitud, demoras y mayor consumo de combustible.',
+    },
+    {
+      termino: 'Conectividad',
+      significado:
+        'Nivel más alto de automatización, donde el vehículo opera sin intervención humana en ningún entorno.',
+    },
+    {
+      termino: 'Conducción autónoma nivel 5',
+      significado:
+        'Nivel más alto de automatización, donde el vehículo opera sin intervención humana en ningún entorno.',
+    },
+    {
+      termino: 'Demanda de transporte',
+      significado:
+        'Cantidad de personas o carga que requieren desplazarse en un período y zona específica.',
+    },
+    {
+      termino: '<em>Ecodriving</em>',
+      significado:
+        'Conducción eficiente que reduce el consumo de combustible y la emisión de gases contaminantes.',
+    },
+    {
+      termino: 'Emergencia vial',
+      significado:
+        'Situación imprevista que afecta la circulación y requiere intervención urgente.',
+    },
+    {
+      termino: 'Internet de las cosas <em>(IoT)</em>',
+      significado:
+        'Es un sistema en el que objetos físicos como vehículos, sensores, electrodomésticos o maquinaria están conectados a internet para recopilar, enviar y recibir datos automáticamente.',
+    },
+    {
+      termino: 'Logística urbana',
+      significado:
+        'Planificación y gestión eficiente del transporte de mercancías dentro de zonas urbanas, minimizando impactos negativos.',
+    },
+    {
+      termino: 'Micro movilidad',
+      significado:
+        'Transporte individual de corta distancia como patinetas o bicicletas eléctricas.',
+    },
+    {
+      termino: 'Plan de movilidad',
+      significado:
+        'Estrategia diseñada por autoridades o empresas para mejorar el transporte y reducir los impactos ambientales y sociales.',
+    },
+    {
+      termino: 'Plan estratégico de seguridad vial <em>(PESV)</em>',
+      significado:
+        'Es una herramienta obligatoria en muchos países (como Colombia) que busca prevenir accidentes de tránsito y reducir riesgos viales en organizaciones que operan vehículos o gestionan personal en vías públicas.',
+    },
+    {
+      termino: 'Simulación de tráfico',
+      significado:
+        'Uso de modelos computacionales para prever el comportamiento del tránsito en diferentes escenarios.',
+    },
+    {
+      termino: 'Triple Bottom Line <em>(TBL)</em>',
+      significado:
+        'Es un enfoque de sostenibilidad que evalúa el desempeño de una organización en tres dimensiones clave: económica, ambiental y social.',
+    },
+    {
+      termino: 'Vehículo conectado',
+      significado:
+        'Auto que se comunica con otros vehículos, infraestructura o redes para mejorar la seguridad y eficiencia.',
+    },
+    {
+      termino: 'Zona de bajas emisiones <em>(ZBE)</em>',
+      significado:
+        'Área urbana delimitada en la que se restringe el acceso a vehículos altamente contaminantes para reducir la polución y mejorar la calidad del aire',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Agencia Nacional de Seguridad Vial (ANSV) de Colombia. (2022). <em>Plan Nacional de Seguridad Vial 2022-2031.</em> Función Pública.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/documentos/anexo-tecnico-decreto-1430-2022.pdf',
+    },
+    {
+      referencia:
+        'Cervero, R., Guerra, E., & Al, S. (2019). <em>Beyond Mobility: Planning Cities for People and Places.</em> Island Press.',
+      link: '',
+    },
+    {
+      referencia:
+        'Congreso de la República de Colombia. (2002). <em>Ley 769 de 2002: Por la cual se expide el Código Nacional de Tránsito Terrestre y se dictan otras disposiciones.</em> Diario Oficial de Colombia.',
+      link: '',
+    },
+    {
+      referencia:
+        'Congreso de la República de Colombia. (2022). <em>Ley 2251 de 2022: Por la cual se dictan disposiciones para la formulación, implementación y evaluación de la política pública de seguridad vial con el enfoque de sistema seguro y se dictan otras disposiciones.</em> Diario Oficial de Colombia.',
+      link: '',
+    },
+    {
+      referencia:
+        'Federación Iberoamericana de Asociaciones de Ingeniería de Carreteras (FIARC). (2017). <em>Manual de Diseño Geométrico de Carreteras.</em> FIARC.',
+      link: '',
+    },
+    {
+      referencia:
+        'Organización de las Naciones Unidas (ONU). (2016). <em>Decenio de Acción para la Seguridad Vial 2011-2020: Columna vertebral de la seguridad vial.</em> ONU.',
+      link: '',
+    },
+    {
+      referencia:
+        'Pons, L. (Coord.). (2017). <em>Tráfico y seguridad vial: Una visión multidisciplinar.</em> Editorial Dykinson.',
+      link: '',
+    },
+    {
+      referencia:
+        'Sánchez, R. (2019). <em>Movilidad urbana sostenible: Conceptos, planificación y gestión.</em> Editorial Reverté.',
+      link: '',
+    },
+    {
+      referencia:
+        'World Health Organization (WHO). (2018). <em>Global status report on road safety 2018.</em> WHO.',
       link: '',
     },
   ],

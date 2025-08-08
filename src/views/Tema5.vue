@@ -61,7 +61,7 @@
               .tarjeta--slider__title.mb-3.text-center.fw-bold Balanzas dinámicas y sensores de peso
               .tarjeta--slider__content.text-center.mb-5 Aplicaciones: Control de carga, detección de sobrepeso, preservación de la infraestructura vial.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-start.mb-5
       .col-12.col-lg-8.order-2.order-lg-1.mb-3(data-aos="zoom-in-right")
         AcordionA(tipo="b"  clase-tarjeta="tarjeta tarjeta--color-secundario-10")
           div(titulo="Título del grafico")
@@ -79,7 +79,7 @@
         figure
           img(src='@/assets/curso/temas/tema_5/img_11.png', class="img-fluid")
       
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-strat.mb-5
       .col-9.col-lg-4.mb-3.mb-lg-0(data-aos="flip-left")
         figure
           img(src='@/assets/curso/temas/tema_5/img_12.png', class="img-fluid")
@@ -100,7 +100,7 @@
             p.ps-5.mb-0 Aplicaciones: navegación, reporte de incidentes, comunicación con centros de control.
     
     .row.justify-content-center.align-items-center
-      .col-12.col-lg-10.mb-5(data-aos="zoom-in-right")
+      .col-12.col-lg-8.mb-5(data-aos="zoom-in-right")
         .div.tarjeta.color-secundario-20.p-3
           .row.justify-content-around.align-items-center
             .col-auto
@@ -128,7 +128,7 @@
       img(src='@/assets/curso/temas/tema_5/img_14.png', class="img-fluid d-block d-lg-none mb-3")
       img(src='@/assets/curso/temas/tema_5/img_15.png', class="img-fluid d-block d-lg-none mb-3")
       img(src='@/assets/curso/temas/tema_5/img_16.png', class="img-fluid d-block d-lg-none mb-3")
-      figcaption <b>Fuente.</b> SENA, 2025
+      figcaption <b>Fuente.</b> SENA, 2025.
     
     .bg_img_4.mb-3
 
@@ -189,10 +189,10 @@
         .tarjeta.color-secundario-5.p-4.rounded-0.mb-0
           ul
             li
-              i.fa-solid.fa-circle-check(style="color: #4C77AE; font-size: 15px").mb-0
+              i.fa-solid.fa-circle-check(style="color: #4C77AE; font-size: 15px").mb-3
               |   <B>Corte remoto de motor:</B> en caso de robo, el sistema puede apagar el motor del vehículo de forma segura.
             li
-              i.fa-solid.fa-circle-check(style="color: #4C77AE; font-size: 15px").mb-0
+              i.fa-solid.fa-circle-check(style="color: #4C77AE; font-size: 15px").mb-3
               |   <B>Activación de alarmas:</B> disparar alarmas sonoras o visuales en el vehículo.
             li
               i.fa-solid.fa-circle-check(style="color: #4C77AE; font-size: 15px").mb-0

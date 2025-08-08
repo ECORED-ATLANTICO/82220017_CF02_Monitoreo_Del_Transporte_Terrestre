@@ -57,7 +57,7 @@
               img(src='@/assets/curso/temas/tema_3/img_3.png', class="img-fluid")
 
     .row.justify-content-center.align-items-center
-      .col-12.col-lg-10.mb-5
+      .col-12.col-lg-8.mb-5
         .div.tarjeta.color-secundario-20.p-3
           .row.justify-content-around.align-items-center
             .col-auto
@@ -78,7 +78,7 @@
         figure
           img(src='@/assets/curso/temas/tema_3/img_4.svg', class="img-fluid d-none d-lg-block")
           img(src='@/assets/curso/temas/tema_3/img_5.svg', class="img-fluid d-block d-lg-none")
-          figcaption <b>Fuente.</b> SENA, 2025
+          figcaption <b>Fuente.</b> SENA, 2025.
 
     separador
 
@@ -266,7 +266,7 @@
     p.mb-3 La implementación efectiva de los métodos de monitoreo vial requiere del uso de herramientas tecnológicas específicas que permiten capturar, procesar y analizar datos de forma confiable; entre esas tenemos:
     
     .custom-slider.p-5.p-sm-3(data-aos="zoom-in-right")
-      SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-4").p-2.rounded-3
+      SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-4").p-3.rounded-3
         .tarjeta--color-primario-10.h-100
           .tarjeta--11
           .tarjeta--slider__title.mb-3.text-center.fw-bold Sensores en la vía

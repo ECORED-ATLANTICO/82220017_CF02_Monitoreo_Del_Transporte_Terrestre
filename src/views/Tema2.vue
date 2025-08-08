@@ -46,7 +46,7 @@
     .bg_img_1.mb-3
       p.mb-5 La importancia de la sostenibilidad en la movilidad radica en varios pilares clave:
       
-      .row.justify-content-center.align-items-center.mb-0
+      .row.justify-content-center.align-items-start.mb-0
         .col-12.col-lg-9.order-2.order-lg-1.mb-3
           AcordionA(tipo="b"  clase-tarjeta="tarjeta tarjeta--color-secundario-10")
             div(titulo="Impacto ambiental")
@@ -65,7 +65,7 @@
     separador
 
     #t_2_3.titulo-segundo.color-acento-contenido
-      .h2(data-aos="fade-right") 2.2 Importancia
+      .h2(data-aos="fade-right") 2.3 Tendencia
     .mb-3
 
     .row.justify-content-center.align-items-center.mb-0

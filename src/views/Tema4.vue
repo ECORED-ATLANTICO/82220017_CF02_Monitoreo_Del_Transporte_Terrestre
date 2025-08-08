@@ -128,7 +128,7 @@
       figure
         img(src='@/assets/curso/temas/tema_4/img_14.png', class="img-fluid d-none d-lg-block")
         img(src='@/assets/curso/temas/tema_4/img_15.png', class="img-fluid d-block d-lg-none")
-        figcaption <b>Fuente.</b> SENA, 2025
+        figcaption <b>Fuente.</b> SENA, 2025.
 
 
 
