@@ -74,44 +74,44 @@
         TabsA.mb-0.tarjeta-tabs-a.color-primario-10
           .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Porcentaje de viajes completados a tiempo")
             .row.justify-content-center.align-items-center.mb-0
-              .col-12.col-lg-7.order-2.order-lg-1.mb-0
+              .col-12.col-lg-5.order-2.order-lg-1.mb-0
                 p.mb-0 se detalla el porcentaje de rutas que se ejecutaron dentro de los plazos establecidos, identificando desviaciones significativas.
-              .ol-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
+              .ol-12.col-lg-7.order-1.order-lg-2.mb-lg-0.mb-3
                 figure
                   img(src='@/assets/curso/temas/tema_7/img_8.png', class="img-fluid")
           .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Análisis de desvíos de ruta")
             .row.justify-content-center.align-items-center.mb-0
-              .col-12.col-lg-7.order-2.order-lg-1.mb-0
+              .col-12.col-lg-5.order-2.order-lg-1.mb-0
                 p.mb-0 cuantificación y causa principal de los desvíos no planificados, si los hubo.
-              .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
+              .col-12.col-lg-7.order-1.order-lg-2.mb-lg-0.mb-3
                 figure
                   img(src='@/assets/curso/temas/tema_7/img_9.png', class="img-fluid")
           .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Eficiencia de rutas")
             .row.justify-content-center.align-items-center.mb-0
-              .col-12.col-lg-7.order-2.order-lg-1.mb-0
+              .col-12.col-lg-5.order-2.order-lg-1.mb-0
                 p.mb-0 comparación entre las rutas planificadas y las rutas reales ejecutadas, destacando optimizaciones o ineficiencias.
-              .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
+              .col-12.col-lg-7.order-1.order-lg-2.mb-lg-0.mb-3
                 figure
                   img(src='@/assets/curso/temas/tema_7/img_10.png', class="img-fluid")
           .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Horas de operación vs. horas de inactividad")
             .row.justify-content-center.align-items-center.mb-0
-              .col-12.col-lg-7.order-2.order-lg-1.mb-0
+              .col-12.col-lg-5.order-2.order-lg-1.mb-0
                 p.mb-0 medición del tiempo efectivo en que los vehículos estuvieron en movimiento versus detenidos con el motor encendido o apagado.
-            .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
-              figure
-                img(src='@/assets/curso/temas/tema_7/img_11.png', class="img-fluid")
+              .col-12.col-lg-7.order-1.order-lg-2.mb-lg-0.mb-3
+                figure
+                  img(src='@/assets/curso/temas/tema_7/img_11.png', class="img-fluid")
           .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Kilometraje promedio")
             .row.justify-content-center.align-items-center.mb-0
-              .col-12.col-lg-7.order-2.order-lg-1.mb-0
+              .col-12.col-lg-5.order-2.order-lg-1.mb-0
                 p.mb-0  kilómetros recorridos por vehículo o por tipo de vehículo, comparado con metas o periodos anteriores.
-              .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
+              .col-12.col-lg-7.order-1.order-lg-2.mb-lg-0.mb-3
                 figure
                   img(src='@/assets/curso/temas/tema_7/img_12.png', class="img-fluid")
           .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Índice de ocupación/carga")
             .row.justify-content-center.align-items-center.mb-0
-              .col-12.col-lg-7.order-2.order-lg-1.mb-0
+              .col-12.col-lg-5.order-2.order-lg-1.mb-0
                 p.mb-0  si aplica, el promedio de utilización de la capacidad de carga del vehículo.
-              .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
+              .col-12.col-lg-7.order-1.order-lg-2.mb-lg-0.mb-3
                 figure
                   img(src='@/assets/curso/temas/tema_7/img_13.png', class="img-fluid")
 
