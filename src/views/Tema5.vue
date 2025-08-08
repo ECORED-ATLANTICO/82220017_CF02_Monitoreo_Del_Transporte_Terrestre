@@ -34,7 +34,7 @@
               .tarjeta--slider__content.text-center Ventajas: precisión, cobertura amplia, integración con otros sistemas.
             .tarjeta.bg-img-01
               .tarjeta--22
-              .tarjeta--slider__title.mb-3.text-center.fw-bold.fst-italic Cámaras de video vigilancia (<I>CCTV</I>).
+              .tarjeta--slider__title.mb-3.text-center.fw-bold Cámaras de video vigilancia (<I>CCTV</I>).
               .tarjeta--slider__content.text-center Tipos: cámaras fijas, <I>PTZ</I> (giran y hacen <I>zoom</I>), térmicas (para condiciones de baja visibilidad).
             .tarjeta.bg-img-01
               .tarjeta--23

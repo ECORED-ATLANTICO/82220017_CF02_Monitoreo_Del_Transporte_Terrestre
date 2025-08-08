@@ -172,6 +172,20 @@ figcaption
       height: 100%
       background-image: url('../assets/curso/temas/tema_4/img_17.png') !important
       background-repeat: no-repeat
+  &_5
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: -25px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/temas/tema_6/img_10.png') !important
+      background-repeat: no-repeat
 
 ///BG_color
 .bg-color-acento-contenido
@@ -214,13 +228,17 @@ figcaption
       @media (max-width: 1024px)
         margin-right: 7px
 
-// CSS para cambiar las columnas del TabsA - distribución 70-30
+// TabsA 
 .tabs-a.mb-0.tarjeta-tabs-a.color-primario-10
   .row
+    align-items: stretch !important
+    justify-content: center !important
     .col-lg-4.col-xl-3
       flex: 0 0 50% !important
       max-width: 50% !important
-      
+      display: flex
+      flex-direction: column
+
       @media (min-width: 1200px)
         flex: 0 0 55% !important
         max-width: 55% !important
@@ -228,10 +246,10 @@ figcaption
       @media (max-width: 991px)
         flex: 0 0 100% !important
         max-width: 100% !important
-    
     .col-lg-8.col-xl-9
       flex: 0 0 50% !important
       max-width: 50% !important
+      display: flex !important
       
       @media (min-width: 1200px)
         flex: 0 0 45% !important
@@ -241,25 +259,76 @@ figcaption
         flex: 0 0 100% !important
         max-width: 100% !important
 
-// Mejorar la apariencia de los tabs individuales
 .tabs-a.mb-5.tarjeta-tabs-a.color-primario-10 .col-sm-6.col-lg-12.mb-3
   .tabs-a__tab
     padding: 18px 22px !important
     font-size: 0.95rem !important
     min-height: 60px !important
+    flex-grow: 1
+
+.tabs-a .tarjeta-tabs-a__tarjeta
+  flex-grow: 1 !important
+  width: 100%
+  display: flex !important
+  align-items: center !important
+  justify-content: center !important
 
 // label-title
 .label-title
-  font-size: 1.25rem
-  font-weight: bold
-  color: #0d172a
   position: relative
-  display: flex
-  align-items: center
-  padding: 13px 20px 11px 60px
-  background-repeat: no-repeat
-  background-position: left center
-  background-size: contain
-  line-height: 1.3
-  min-height: 55px 
-  background-image: url('../assets/curso/temas/tema_3/img_28.svg')
+  display: inline-block 
+  vertical-align: middle
+  max-width: 100%
+  box-sizing: border-box
+  background-color: $color-acento-contenido
+  border-radius: 100px
+  padding: 10px 25px 10px 60px 
+
+  &::before
+    content: ''
+    position: absolute
+    z-index: 2
+    top: 50%
+    transform: translateY(-50%)
+    left: 0px
+    width: 50px
+    height: 50px
+    background-image: url('../assets/curso/temas/tema_3/img_28.png')
+    background-size: contain
+    background-repeat: no-repeat
+
+@media (max-width: 576px)
+  .label-title
+    padding: 10px 25px 10px 85px 
+    &::before
+      width: 75px
+      height: 75px
+
+///////// Card hover --------------------------------------
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important 
+  &:hover    
+    .crd_hover_txt--body   
+      background-color: $color-acento-contenido-10
+      color: $color-sistema-texto
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+    h4
+      color: $color-sistema-texto !important
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: $color-acento-contenido
+    h4
+      color: $color-sistema-texto
+
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
