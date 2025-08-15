@@ -16,7 +16,7 @@
         p.mb-0 Más allá de su impacto en la eficiencia empresarial, el monitoreo estratégico también contribuye de manera significativa a la seguridad vial y la protección del medio ambiente, promoviendo prácticas de movilidad más responsables y sostenibles. 
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/PMzSKCTYZIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/e3CYeRKP4jk?si=j7kjlIL2hMBLcmO2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 </template>
 
