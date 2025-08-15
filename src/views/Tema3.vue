@@ -36,21 +36,21 @@
         .row.justify-content-center.align-items-center
           .col-12.col-lg-8.mb-lg-0.order-2.order-lg-1.mb-3(data-aos='zoom-in-right')
             .tarjeta.color-secundario-5.p-4.rounded-0.mb-0
-              ul
-                li
-                  i.fa-solid.fa-circle-check(style="color: #4C77AE; font-size: 15px").mb-0
+              ul.list-unstyled
+                li.d-flex.align-items-start.mb-1
+                  i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #4C77AE; font-size: 15px; line-height: 1.5;")
                   |   Supervisar el flujo vehicular y peatonal.
-                li
-                  i.fa-solid.fa-circle-check(style="color: #4C77AE; font-size: 15px").mb-0
+                li.d-flex.align-items-start.mb-1
+                  i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #4C77AE; font-size: 15px; line-height: 1.5;")
                   |   Detectar incidentes, congestiones y condiciones anómalas.
-                li
-                  i.fa-solid.fa-circle-check(style="color: #4C77AE; font-size: 15px").mb-0
+                li.d-flex.align-items-start.mb-1
+                  i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #4C77AE; font-size: 15px; line-height: 1.5;")
                   |   Apoyar la planificación vial y logística.
-                li
-                  i.fa-solid.fa-circle-check(style="color: #4C77AE; font-size: 15px").mb-0
+                li.d-flex.align-items-start.mb-1
+                  i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #4C77AE; font-size: 15px; line-height: 1.5;")
                   |   Coordinar respuestas rápidas ante emergencias.
-                li
-                  i.fa-solid.fa-circle-check(style="color: #4C77AE; font-size: 15px").mb-0
+                li.d-flex.align-items-start.mb-0
+                  i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #4C77AE; font-size: 15px; line-height: 1.5;")
                   |   Promover la movilidad segura y sustentable.
           .col-12.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0(data-aos='zoom-in-right')
             figure
@@ -208,18 +208,18 @@
       .col-12.col-lg-7.mb-lg-0.order-2.order-lg-1.mb-3(data-aos='zoom-in-right')
         .tarjeta.color-primario-10.p-4.rounded-0.mb-0
           p.mb-3 Importancia de la medición la aplicar estos criterios permite:
-          ul
-            li
-              i.fa-solid.fa-circle-check(style="color: #4C77AE; font-size: 15px").mb-2
+          ul.list-unstyled
+            li.d-flex.align-items-start.mb-2
+              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #4C77AE; font-size: 15px; line-height: 1.5;")
               |   Optimizar la toma de decisiones en políticas públicas.
-            li
-              i.fa-solid.fa-circle-check(style="color: #4C77AE; font-size: 15px").mb-2
+            li.d-flex.align-items-start.mb-2
+              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #4C77AE; font-size: 15px; line-height: 1.5;")
               |   Justificar inversiones en infraestructura tecnológica.
-            li
-              i.fa-solid.fa-circle-check(style="color: #4C77AE; font-size: 15px").mb-2
+            li.d-flex.align-items-start.mb-2
+              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #4C77AE; font-size: 15px; line-height: 1.5;")
               |   Reducir los riesgos operacionales y mejorar la seguridad.
-            li
-              i.fa-solid.fa-circle-check(style="color: #4C77AE; font-size: 15px").mb-0
+            li.d-flex.align-items-start.mb-1
+              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #4C77AE; font-size: 15px; line-height: 1.5;")
               |   Garantizar un transporte más eficiente, predecible y sostenible.
       .col-12.col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0(data-aos='zoom-in-right')
         figure

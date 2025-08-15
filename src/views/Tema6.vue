@@ -21,19 +21,19 @@
             p.mb-0 Se refiere a la recopilación y el análisis ininterrumpido de datos en tiempo real. Imagina un flujo constante de información que nunca se detiene. No es una actividad que se activa o desactiva; está siempre funcionando, 24 horas al día, 7 días a la semana.
         .tarjeta.color-secundario-5.p-4.rounded-0.mb-0
           p.mb-3 Características clave de un proceso continuo:
-          ul
-            li.mb-3
-              i.fa-solid.fa-circle-check(style="color: #4C77AE; font-size: 15px").mb-0
-              |   <B>Tiempo real:</B> los datos se capturan y transmiten en el mismo instante en que ocurren los eventos (ubicación, velocidad, estado del motor, etc.).
-            li.mb-3
-              i.fa-solid.fa-circle-check(style="color: #4C77AE; font-size: 15px").mb-0
-              |   <B>Monitoreo constante:</B> esto es crucial para detectar anomalías o incidentes tan pronto como suceden.
-            li.mb-3
-              i.fa-solid.fa-circle-check(style="color: #4C77AE; font-size: 15px").mb-0
-              |   <B>Alertas inmediatas:</B> permite la configuración de alarmas que se disparan al instante ante eventos críticos, como desvíos de ruta, exceso de velocidad, o activación de un botón de pánico.
-            li.mb-3
-              i.fa-solid.fa-circle-check(style="color: #4C77AE; font-size: 15px").mb-0
-              |   <B>Visibilidad operativa:</B> ofrece una imagen siempre actualizada del estado de la flota y la logística.
+          ul.list-unstyled
+            li.d-flex.align-items-start.mb-3
+              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #4C77AE; font-size: 15px; line-height: 1.5;").mb-0
+              span <B>Tiempo real:</B> los datos se capturan y transmiten en el mismo instante en que ocurren los eventos (ubicación, velocidad, estado del motor, etc.).
+            li.d-flex.align-items-start.mb-3
+              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #4C77AE; font-size: 15px; line-height: 1.5;").mb-0
+              span <B>Monitoreo constante:</B> esto es crucial para detectar anomalías o incidentes tan pronto como suceden.
+            li.d-flex.align-items-start.mb-3
+              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #4C77AE; font-size: 15px; line-height: 1.5;").mb-0
+              span <B>Alertas inmediatas:</B> permite la configuración de alarmas que se disparan al instante ante eventos críticos, como desvíos de ruta, exceso de velocidad, o activación de un botón de pánico.
+            li.d-flex.align-items-start.mb-3
+              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #4C77AE; font-size: 15px; line-height: 1.5;").mb-0
+              span <B>Visibilidad operativa:</B> ofrece una imagen siempre actualizada del estado de la flota y la logística.
       .col-12.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
           figure
             img(src='@/assets/curso/temas/tema_6/img_2.png', class="img-fluid") 

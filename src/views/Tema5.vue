@@ -187,16 +187,16 @@
           span.label-title Acciones automatizadas y control remoto.
       .col-12.col-lg-10(data-aos='zoom-in-right')
         .tarjeta.color-secundario-5.p-4.rounded-0.mb-0
-          ul
-            li
-              i.fa-solid.fa-circle-check(style="color: #4C77AE; font-size: 15px").mb-3
-              |   <B>Corte remoto de motor:</B> en caso de robo, el sistema puede apagar el motor del vehículo de forma segura.
-            li
-              i.fa-solid.fa-circle-check(style="color: #4C77AE; font-size: 15px").mb-3
-              |   <B>Activación de alarmas:</B> disparar alarmas sonoras o visuales en el vehículo.
-            li
-              i.fa-solid.fa-circle-check(style="color: #4C77AE; font-size: 15px").mb-0
-              |   <B>Control de acceso:</B> gestionar el encendido del vehículo solo para conductores autorizados (ej. mediante <I>RFID o PIN</I>).
+          ul.list-unstyled
+            li.d-flex.align-items-start.mb-3
+              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #4C77AE; font-size: 15px; line-height: 1.5;")
+              span <B>Corte remoto de motor:</B> en caso de robo, el sistema puede apagar el motor del vehículo de forma segura.
+            li.d-flex.align-items-start.mb-3
+              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #4C77AE; font-size: 15px; line-height: 1.5;")
+              span <B>Activación de alarmas:</B> disparar alarmas sonoras o visuales en el vehículo.
+            li.d-flex.align-items-start.mb-0
+              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #4C77AE; font-size: 15px; line-height: 1.5;")
+              span <B>Control de acceso:</B> gestionar el encendido del vehículo solo para conductores autorizados (ej. mediante <I>RFID o PIN</I>).
 </template>
 
 <script>
