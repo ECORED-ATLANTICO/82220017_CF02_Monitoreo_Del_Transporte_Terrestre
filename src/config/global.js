@@ -8,15 +8,15 @@ export default {
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
       },
       {
         clases: ['banner-principal-decorativo-3'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },

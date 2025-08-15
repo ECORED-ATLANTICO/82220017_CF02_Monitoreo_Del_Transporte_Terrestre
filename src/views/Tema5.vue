@@ -65,16 +65,16 @@
       .col-12.col-lg-8.order-2.order-lg-1.mb-3(data-aos="zoom-in-right")
         AcordionA(tipo="b"  clase-tarjeta="tarjeta tarjeta--color-secundario-10")
           div(titulo="Título del grafico")
-            p.ps-5.mb-0 Tipos de dispositivos de seguimiento
+            p.mb-0  Tipos de dispositivos de seguimiento
           div(titulo="Dispositivo <I>GPS</I> (Sistema de Posicionamiento Global)")
-            p.ps-5.mb-3 Localizan en tiempo real la posición de vehículos en movimiento.
-            p.ps-5.mb-0 Aplicaciones: rastreo de rutas, control de tiempos de viaje, georreferenciación de incidentes, planificación logística.
+            p.mb-3 Localizan en tiempo real la posición de vehículos en movimiento.
+            p.mb-0  Aplicaciones: rastreo de rutas, control de tiempos de viaje, georreferenciación de incidentes, planificación logística.
           div(titulo="Cámaras de video vigilancia (<I>CCTV</I>)")
-            p.ps-5.mb-3 Capturan imágenes y videos del tránsito vehicular y peatonal.
-            p.ps-5.mb-0 Aplicaciones: monitoreo en tiempo real, control de infracciones, análisis de flujo, evidencias en caso de accidentes
+            p.mb-3 Capturan imágenes y videos del tránsito vehicular y peatonal.
+            p.mb-0  Aplicaciones: monitoreo en tiempo real, control de infracciones, análisis de flujo, evidencias en caso de accidentes
           div(titulo="Sensores de velocidad y flujo vehicular")
-            p.ps-5.mb-3 Detectan la velocidad, volumen y tipo de vehículos que circulan por un punto determinado.
-            p.ps-5.mb-0 Aplicaciones: control de velocidad, análisis de congestión, activación de alertas.
+            p.mb-3 Detectan la velocidad, volumen y tipo de vehículos que circulan por un punto determinado.
+            p.mb-0  Aplicaciones: control de velocidad, análisis de congestión, activación de alertas.
       .col-9.col-lg-4.order-1.order-lg-2.mb-3(data-aos="flip-left")
         figure
           img(src='@/assets/curso/temas/tema_5/img_11.png', class="img-fluid")
@@ -86,18 +86,18 @@
       .col-12.col-lg-8.order-2.order-lg-1.mb-3
         AcordionA(tipo="b"  clase-tarjeta="tarjeta tarjeta--color-secundario-10")
           div(titulo="Dispositivos <I>RFID</I> (Identificación por radiofrecuencia)")
-            p.ps-5.mb-3 Identifican vehículos mediante etiquetas electrónicas instaladas en ellos.
-            p.ps-5.mb-0 Aplicaciones: control de acceso en peajes, zonas restringidas, estaciones de pesaje y seguimiento logístico.
+            p.mb-3 Identifican vehículos mediante etiquetas electrónicas instaladas en ellos.
+            p.mb-0  Aplicaciones: control de acceso en peajes, zonas restringidas, estaciones de pesaje y seguimiento logístico.
           div(titulo="Drones (vehículos aéreos no tripulados)")
-            p.ps-5.mb-3 Realizan monitoreos aéreos sobre corredores viales o zonas específicas.
-            p.ps-5.mb-0 Aplicaciones: supervisión de grandes áreas, inspección de infraestructura, respuesta rápida a emergencias.
+            p.mb-3 Realizan monitoreos aéreos sobre corredores viales o zonas específicas.
+            p.mb-0  Aplicaciones: supervisión de grandes áreas, inspección de infraestructura, respuesta rápida a emergencias.
           div(titulo="Estaciones meteorológicas móviles o fijas")
-            p.ps-5.mb-3 Miden condiciones climáticas que afectan la seguridad vial (lluvia, niebla, visibilidad, viento).
-            p.ps-5.mb-0 Aplicaciones: prevención de accidentes, activación de alertas, apoyo a planes de contingencia.
+            p.mb-3 Miden condiciones climáticas que afectan la seguridad vial (lluvia, niebla, visibilidad, viento).
+            p.mb-0  Aplicaciones: prevención de accidentes, activación de alertas, apoyo a planes de contingencia.
 
           div(titulo="Aplicaciones móviles y dispositivos embarcados")
-            p.ps-5.mb-3 Permiten al conductor o al operador monitorear y reportar condiciones del viaje.
-            p.ps-5.mb-0 Aplicaciones: navegación, reporte de incidentes, comunicación con centros de control.
+            p.mb-3 Permiten al conductor o al operador monitorear y reportar condiciones del viaje.
+            p.mb-0  Aplicaciones: navegación, reporte de incidentes, comunicación con centros de control.
     
     .row.justify-content-center.align-items-center
       .col-12.col-lg-8.mb-5(data-aos="zoom-in-right")

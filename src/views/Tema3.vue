@@ -181,25 +181,25 @@
       .col-12.col-lg-9.order-2.order-lg-1.mb-3
         AcordionA(tipo="b"  clase-tarjeta="tarjeta tarjeta--color-secundario-10")
           div(titulo="Flujo vehicular")
-            p.ps-5.mb-0 Evalúa la cantidad y tipo de vehículos que circulan en un tramo vial durante un período específico.
-            p.ps-5.mb-0 <B>Indicadores:</B> volumen de tráfico (vehículos/hora), densidad vehicular, velocidad promedio.
-            p.ps-5.mb-0 <B>Herramientas:</B> sensores inductivos, aforos automáticos, cámaras de conteo.
+            p.mb-0 Evalúa la cantidad y tipo de vehículos que circulan en un tramo vial durante un período específico.
+            p.mb-0 <B>Indicadores:</B> volumen de tráfico (vehículos/hora), densidad vehicular, velocidad promedio.
+            p.mb-0 <B>Herramientas:</B> sensores inductivos, aforos automáticos, cámaras de conteo.
           div(titulo="Tiempo de viaje y retraso")
-            p.ps-5.mb-0 Mide la eficiencia del tránsito en función del tiempo invertido por los usuarios.
-            p.ps-5.mb-0 <B>Indicadores:</B> tiempo medio de desplazamiento, tiempo de detención en intersecciones, nivel de congestión.
-            p.ps-5.mb-0 <B>Herramientas:</B> <I>GPS, software</I> de gestión de flotas, aplicaciones móviles.
+            p.mb-0Mide la eficiencia del tránsito en función del tiempo invertido por los usuarios.
+            p.mb-0 <B>Indicadores:</B> tiempo medio de desplazamiento, tiempo de detención en intersecciones, nivel de congestión.
+            p.mb-0 <B>Herramientas:</B> <I>GPS, software</I> de gestión de flotas, aplicaciones móviles.
           div(titulo="Índices de seguridad vial")
-            p.ps-5.mb-0 Evalúa la frecuencia, gravedad y localización de incidentes accidentes de tránsito.
-            p.ps-5.mb-0 <B>Indicadores:</B> tasa de siniestralidad, puntos críticos (puntos negros), número de víctimas o lesiones.
-            p.ps-5.mb-0 <B>Herramientas:</B> cámaras de vigilancia, sensores de impacto, bases de datos policiales.
+            p.mb-0 Evalúa la frecuencia, gravedad y localización de incidentes accidentes de tránsito.
+            p.mb-0 <B>Indicadores:</B> tasa de siniestralidad, puntos críticos (puntos negros), número de víctimas o lesiones.
+            p.mb-0 <B>Herramientas:</B> cámaras de vigilancia, sensores de impacto, bases de datos policiales.
           div(titulo="Estado de la infraestructura")
-            p.ps-5.mb-0 Mide las condiciones físicas de la vía y su capacidad para soportar el flujo de tránsito.
-            p.ps-5.mb-0 <B>Indicadores:</B> índice de condición del pavimento (<I>PCI</I>), presencia de baches, señalización deficiente.
-            p.ps-5.mb-0 <B>Herramientas:</B> inspección por drones, escáner láser, sensores en el pavimento.
+            p.mb-0 Mide las condiciones físicas de la vía y su capacidad para soportar el flujo de tránsito.
+            p.mb-0 <B>Indicadores:</B> índice de condición del pavimento (<I>PCI</I>), presencia de baches, señalización deficiente.
+            p.mb-0 <B>Herramientas:</B> inspección por drones, escáner láser, sensores en el pavimento.
           div(titulo="Cumplimiento normativo")
-            p.ps-5.mb-0 verifique la adherencia de los usuarios a las normas de tránsito y los sistemas automatizados de control.
-            p.ps-5.mb-0 <B>Indicadores:</B> excesos de velocidad detectados, evasión de semáforos, cumplimiento de rutas.
-            p.ps-5.mb-0 <B>Herramientas:</B> foto multas, radares, cámaras de cruce, sistemas <I>OCR</I> (reconocimiento de matrículas).
+            p.mb-0 verifique la adherencia de los usuarios a las normas de tránsito y los sistemas automatizados de control.
+            p.mb-0 <B>Indicadores:</B> excesos de velocidad detectados, evasión de semáforos, cumplimiento de rutas.
+            p.mb-0 <B>Herramientas:</B> foto multas, radares, cámaras de cruce, sistemas <I>OCR</I> (reconocimiento de matrículas).
       .col-9.col-lg-3.order-1.order-lg-2.mb-3(data-aos="flip-left")
         figure
           img(src='@/assets/curso/temas/tema_3/img_16.png', class="img-fluid")

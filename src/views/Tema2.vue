@@ -50,13 +50,13 @@
         .col-12.col-lg-9.order-2.order-lg-1.mb-3
           AcordionA(tipo="b"  clase-tarjeta="tarjeta tarjeta--color-secundario-10")
             div(titulo="Impacto ambiental")
-              p.ps-5.mb-0 El transporte es uno de los mayores contribuyentes a las emisiones de gases de efecto invernadero y a la contaminación del aire en las ciudades. Una movilidad sostenible busca reducir drásticamente estas emisiones a través de la adopción de vehículos eléctricos, híbridos y de hidrógeno, el fomento del transporte público y la planificación urbana que prioriza la cercanía.
+              p.mb-0 El transporte es uno de los mayores contribuyentes a las emisiones de gases de efecto invernadero y a la contaminación del aire en las ciudades. Una movilidad sostenible busca reducir drásticamente estas emisiones a través de la adopción de vehículos eléctricos, híbridos y de hidrógeno, el fomento del transporte público y la planificación urbana que prioriza la cercanía.
             div(titulo="Eficiencia de recursos")
-              p.ps-5.mb-0 La dependencia de los combustibles fósiles es insostenible a largo plazo. La movilidad sostenible promueve el uso eficiente de la energía y la diversificación hacia fuentes renovables, lo que no solo reduce la huella de carbono, sino que también genera ahorros operativos significativos y disminuye la dependencia de recursos finitos.
+              p.mb-0La dependencia de los combustibles fósiles es insostenible a largo plazo. La movilidad sostenible promueve el uso eficiente de la energía y la diversificación hacia fuentes renovables, lo que no solo reduce la huella de carbono, sino que también genera ahorros operativos significativos y disminuye la dependencia de recursos finitos.
             div(titulo="Calidad de vida y salud pública")
-              p.ps-5.mb-0 Menos contaminación y ruido se traducen en una mejor calidad del aire, una reducción de enfermedades respiratorias y una mejora general en la salud de la población. Además, la promoción de modos de transporte activos como caminar y andar en bicicleta contribuye a una sociedad más saludable.
+              p.mb-0Menos contaminación y ruido se traducen en una mejor calidad del aire, una reducción de enfermedades respiratorias y una mejora general en la salud de la población. Además, la promoción de modos de transporte activos como caminar y andar en bicicleta contribuye a una sociedad más saludable.
             div(titulo="Viabilidad económica y social")
-              p.ps-5.mb-0 La inversión inicial en infraestructura y tecnologías sostenibles puede ser alta, a largo plazo se traduce en menores costos de operación y mantenimiento. Además, una movilidad accesible y equitativa mejora la inclusión social y fomenta el desarrollo económico al facilitar el acceso a oportunidades laborales y servicios.
+              p.mb-0La inversión inicial en infraestructura y tecnologías sostenibles puede ser alta, a largo plazo se traduce en menores costos de operación y mantenimiento. Además, una movilidad accesible y equitativa mejora la inclusión social y fomenta el desarrollo económico al facilitar el acceso a oportunidades laborales y servicios.
         .col-9.col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="flip-left")
           figure
             img(src='@/assets/curso/temas/tema_2/img_4.png', class="img-fluid")

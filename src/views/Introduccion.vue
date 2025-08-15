@@ -8,7 +8,7 @@
           i.fas.fa-info
       h1 Introducción
     .row.justify-content-center.align-items-center.mb-5
-      .col-5.col-lg-3.mb-lg-0.mb-3.d-flex
+      .col-12.col-lg-3.mb-lg-0.mb-3.d-flex
         figure.w-100.d-flex.flex-column
           img(src='@/assets/curso/introduccion/img_1.png', class="img-fluid").height-100  
       .col-12.col-lg-9
