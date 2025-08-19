@@ -132,36 +132,36 @@
         .row.justify-content-center.align-items-center.mb-0
           .col-12.col-lg-7.order-2.order-lg-1.mb-0
             p.mb-0 Establecen directrices orientadas a minimizar los riesgos en la vía y proteger a todos los actores del tránsito, especialmente a los usuarios vulnerables. Incluyen normas sobre límites de velocidad, obligatoriedad de dispositivos de monitoreo y mecanismos de sanción automatizados.
-          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
-            figure
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3.d-flex.justify-content-center.align-items-center
+            figure.text-center.m-0
               img(src='@/assets/curso/temas/tema_3/img_10.png', class="img-fluid")
       .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Políticas de gestión inteligente del tráfico")
         .row.justify-content-center.align-items-center.mb-0
           .col-12.col-lg-7.order-2.order-lg-1.mb-0
             p.mb-0 Fomentan el uso de tecnologías ITS (Sistemas Inteligentes de Transporte) para lograr una gestión dinámica y eficiente del tránsito urbano e interurbano. Ejemplos: Sincronización semafórica, carriles reversibles, control de accesos en zonas de alta congestión.
-          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
-            figure
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3.d-flex.justify-content-center.align-items-center
+            figure.text-center.m-0
               img(src='@/assets/curso/temas/tema_3/img_11.png', class="img-fluid")
       .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Políticas de protección de datos y privacidad")
         .row.justify-content-center.align-items-center.mb-0
           .col-12.col-lg-7.order-2.order-lg-1.mb-0
             p.mb-0 Aseguran un uso ético y legal de los datos recolectados por sensores, cámaras y sistemas digitales de monitoreo. Se enfocan en la confidencialidad, el consentimiento del usuario y la prevención de abusos en el manejo de información personal
-          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
-            figure
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3.d-flex.justify-content-center.align-items-center
+            figure.text-center.m-0
               img(src='@/assets/curso/temas/tema_3/img_12.png', class="img-fluid")
       .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Políticas de mantenimiento y actualización tecnológica")
         .row.justify-content-center.align-items-center.mb-0
           .col-12.col-lg-7.order-2.order-lg-1.mb-0
             p.mb-0 Establecen lineamientos para la actualización constante de los sistemas de monitoreo, garantizando su operatividad, interoperabilidad y sostenibilidad. Incluyen normas sobre mantenimiento, vida útil de dispositivos y estándares de compatibilidad tecnológica.
-          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
-            figure
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3.d-flex.justify-content-center.align-items-center
+            figure.text-center.m-0
               img(src='@/assets/curso/temas/tema_3/img_13.png', class="img-fluid")
       .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Políticas ambientales")
         .row.justify-content-center.align-items-center.mb-0
           .col-12.col-lg-7.order-2.order-lg-1.mb-0
             p.mb-0 Integran el monitoreo vial con los objetivos de sostenibilidad y mitigación del impacto ambiental del transporte terrestre. Promueva la gestión de zonas de bajas emisiones, monitoreo de ruido y calidad del aire, y la optimización de rutas ecológicas.
-          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
-            figure
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3.d-flex.justify-content-center.align-items-center
+            figure.text-center.m-0
               img(src='@/assets/curso/temas/tema_3/img_14.png', class="img-fluid")
 
     separador

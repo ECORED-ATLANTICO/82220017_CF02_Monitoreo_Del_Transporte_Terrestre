@@ -76,43 +76,43 @@
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-5.order-2.order-lg-1.mb-0
                 p.mb-0 se detalla el porcentaje de rutas que se ejecutaron dentro de los plazos establecidos, identificando desviaciones significativas.
-              .ol-12.col-lg-7.order-1.order-lg-2.mb-lg-0.mb-3
-                figure
+              .col-12.col-lg-7.order-1.order-lg-2.mb-lg-0.mb-3.d-flex.justify-content-center.align-items-center
+                figure.text-center.m-0
                   img(src='@/assets/curso/temas/tema_7/img_8.png', class="img-fluid")
           .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Análisis de desvíos de ruta")
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-5.order-2.order-lg-1.mb-0
                 p.mb-0 cuantificación y causa principal de los desvíos no planificados, si los hubo.
-              .col-12.col-lg-7.order-1.order-lg-2.mb-lg-0.mb-3
-                figure
+              .col-12.col-lg-7.order-1.order-lg-2.mb-lg-0.mb-3.d-flex.justify-content-center.align-items-center
+                figure.text-center.m-0
                   img(src='@/assets/curso/temas/tema_7/img_9.png', class="img-fluid")
           .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Eficiencia de rutas")
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-5.order-2.order-lg-1.mb-0
                 p.mb-0 comparación entre las rutas planificadas y las rutas reales ejecutadas, destacando optimizaciones o ineficiencias.
-              .col-12.col-lg-7.order-1.order-lg-2.mb-lg-0.mb-3
-                figure
+              .col-12.col-lg-7.order-1.order-lg-2.mb-lg-0.mb-3.d-flex.justify-content-center.align-items-center
+                figure.text-center.m-0
                   img(src='@/assets/curso/temas/tema_7/img_10.png', class="img-fluid")
           .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Horas de operación vs. horas de inactividad")
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-5.order-2.order-lg-1.mb-0
                 p.mb-0 medición del tiempo efectivo en que los vehículos estuvieron en movimiento versus detenidos con el motor encendido o apagado.
-              .col-12.col-lg-7.order-1.order-lg-2.mb-lg-0.mb-3
-                figure
+              .col-12.col-lg-7.order-1.order-lg-2.mb-lg-0.mb-3.d-flex.justify-content-center.align-items-center
+                figure.text-center.m-0
                   img(src='@/assets/curso/temas/tema_7/img_11.png', class="img-fluid")
           .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Kilometraje promedio")
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-5.order-2.order-lg-1.mb-0
                 p.mb-0  kilómetros recorridos por vehículo o por tipo de vehículo, comparado con metas o periodos anteriores.
-              .col-12.col-lg-7.order-1.order-lg-2.mb-lg-0.mb-3
-                figure
+              .col-12.col-lg-7.order-1.order-lg-2.mb-lg-0.mb-3.d-flex.justify-content-center.align-items-center
+                figure.text-center.m-0
                   img(src='@/assets/curso/temas/tema_7/img_12.png', class="img-fluid")
           .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Índice de ocupación/carga")
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-5.order-2.order-lg-1.mb-0
                 p.mb-0  si aplica, el promedio de utilización de la capacidad de carga del vehículo.
-              .col-12.col-lg-7.order-1.order-lg-2.mb-lg-0.mb-3
-                figure
+              .col-12.col-lg-7.order-1.order-lg-2.mb-lg-0.mb-3.d-flex.justify-content-center.align-items-center
+                figure.text-center.m-0
                   img(src='@/assets/curso/temas/tema_7/img_13.png', class="img-fluid")
 
     h3(data-aos='zoom-in-right').mb-5
@@ -157,7 +157,7 @@
               img(src="@/assets/curso/temas/tema_7/img_20.png", alt="alt")
           .crd_hover_txt--body
             h4.mb-3 Activaciones de botón <I>SOS</I> 
-            p.mb-0.text-small número y tipo de incidentes donde se utilizó el botón de pánico.
+            p.mb-3.text-small número y tipo de incidentes donde se utilizó el botón de pánico.&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 
       .col-xl-4.col-lg-5.col-md-8.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
