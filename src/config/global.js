@@ -260,21 +260,21 @@ export default {
       tema: 'Movilidad inteligente',
       referencia:
         'Descubrimiento Latinoamérica. (2013, 4 de abril). <em>¿Cómo funciona el GPS? | ¿Cómo lo hacen?</em> [Video]. YouTube. ',
-      tipo: 'VIDEO',
+      tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=kQE9FpUcp4c',
     },
     {
       tema: 'Sostenibilidad en la movilidad',
       referencia:
         'DW Español. (2021, 15 de julio). <em>La movilidad del futuro</em> [Vídeo]. YouTube.',
-      tipo: 'VIDEO',
+      tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=-xdJ_2mSig8',
     },
     {
       tema: 'Plan de monitoreo vial',
       referencia:
         'Departamento Nacional de Planeación. (2017). <em>Manual de innovación en movilidad y transporte.</em> DNP. ',
-      tipo: 'MANUAL PDF',
+      tipo: 'Manual PDF',
       link:
         'https://portalterritorial.dnp.gov.co/KitOT/Content/uploads/Manual%20innovacion%20Movilidad%20y%20Transporte%20PDF.pdf',
     },
