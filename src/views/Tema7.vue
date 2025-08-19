@@ -150,7 +150,7 @@
       span.label-title Seguridad y prevención de riesgos
 
     .row.justify-content-center.mb-5
-      .col-xl-4.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
+      .col-xl-4.col-lg-5.col-md-8.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
@@ -159,7 +159,7 @@
             h4.mb-3 Activaciones de botón <I>SOS</I> 
             p.mb-0.text-small número y tipo de incidentes donde se utilizó el botón de pánico.
 
-      .col-xl-4.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
+      .col-xl-4.col-lg-5.col-md-8.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
@@ -168,7 +168,7 @@
             h4.mb-3 Alertas de <I>Geocerca</I> 
             p.mb-0.text-small incidencias de vehículos entrando o saliendo de zonas no autorizadas o sensibles.
 
-      .col-xl-4.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
+      .col-xl-4.col-lg-5.col-md-8.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
