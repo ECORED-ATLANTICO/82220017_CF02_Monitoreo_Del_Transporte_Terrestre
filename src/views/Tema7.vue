@@ -7,10 +7,15 @@
         span 7
       h1(data-aos="fade-right") Informe de seguimiento
     
-    .col-12.col-lg-12.p-0
-    p.mb-0 Es una herramienta de gestión estratégica e indispensable dentro de cualquier sistema de control y monitoreo del transporte. Su función principal es transformar el vasto volumen de datos brutos, recolectados a través de diversas técnicas de monitoreo (GPS, sensores, telemetría, etc.), en información estructurada, analítica y accionable. Este documento sintetiza y presenta de manera concisa el desempeño de la operación del transporte durante un periodo determinado, sirviendo como un pilar fundamental para la evaluación, la toma de decisiones y la mejora continua. No es un mero compendio de datos, sino un análisis interpretativo que guía la acción.
-    p.mb-5 Dentro del informe se incorpora la generación de intervalos regulares y predefinidos (por ejemplo, diaria, semanal, mensual, trimestral o anualmente), lo cual permite:
+    .bloque-texto-g.bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema_7/img_30.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Es una herramienta de gestión estratégica e indispensable dentro de cualquier sistema de control y monitoreo del transporte. Su función principal es transformar el vasto volumen de datos brutos, recolectados a través de diversas técnicas de monitoreo (GPS, sensores, telemetría, etc.), en información estructurada, analítica y accionable. Este documento sintetiza y presenta de manera concisa el desempeño de la operación del transporte durante un periodo determinado, sirviendo como un pilar fundamental para la evaluación, la toma de decisiones y la mejora continua. No es un mero compendio de datos, sino un análisis interpretativo que guía la acción.
+        p.mb-0 Dentro del informe se incorpora la generación de intervalos regulares y predefinidos (por ejemplo, diaria, semanal, mensual, trimestral o anualmente), lo cual permite:
 
+    separador
 
     #t_7_1.titulo-segundo.color-acento-contenido
       .h2(data-aos="fade-right") 7.1 Seguimiento periódico

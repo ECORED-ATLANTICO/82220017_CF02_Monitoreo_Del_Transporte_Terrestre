@@ -7,8 +7,14 @@
         span 2
       h1 Sostenibilidad en la movilidad
 
-    col-12.col-lg-12.p-0
-      p.mb-5 garantizar sistemas de transporte eficientes, accesibles y respetuosos con el medio ambiente, reduciendo emisiones y optimizando recursos. Su importancia radica en que contribuye a la calidad de vida, promueve ciudades más seguras y saludables, y apoya el desarrollo económico responsable. Entre las principales tendencias destacan la electrificación del transporte, el impulso de la movilidad activa (bicicletas y caminatas), la intermodalidad y el uso de tecnologías inteligentes para mejorar la eficiencia y disminuir el impacto ambiental
+    .bloque-texto-g.bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-0
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema_2/img_1.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 garantizar sistemas de transporte eficientes, accesibles y respetuosos con el medio ambiente, reduciendo emisiones y optimizando recursos. Su importancia radica en que contribuye a la calidad de vida, promueve ciudades más seguras y saludables, y apoya el desarrollo económico responsable. Entre las principales tendencias destacan la electrificación del transporte, el impulso de la movilidad activa (bicicletas y caminatas), la intermodalidad y el uso de tecnologías inteligentes para mejorar la eficiencia y disminuir el impacto ambiental
+
+    separador
 
     #t_2_1.titulo-segundo.color-acento-contenido
       .h2(data-aos="fade-right") 2.1 Concepto
@@ -24,21 +30,21 @@
             p.mb-0 Se busca reducir el impacto ambiental del transporte mediante la disminución de emisiones contaminantes, gestión adecuada de residuos operativos y un menor uso de combustibles fósiles y recursos no renovables, promoviendo sostenibilidad.
           .col-12.col-lg-6.order-1.order-lg-2.mb-lg-0.mb-3
             figure
-              img(src='@/assets/curso/temas/tema_2/img_1.png', class="img-fluid")
+              img(src='@/assets/curso/temas/tema_2/img_2.png', class="img-fluid")
         .row.justify-content-center.align-items-center
           .col-12.col-lg-4.order-2.order-lg-1.mb-0
             h5 Dimensión social
             p.mb-0 Busca asegurar acceso equitativo al transporte, fomentar la seguridad vial, disminuir la congestión urbana que afecta la calidad de vida y optimizar las condiciones laborales del personal del sector transporte.
           .col-12.col-lg-6.order-1.order-lg-2.mb-lg-0.mb-3
             figure
-              img(src='@/assets/curso/temas/tema_2/img_2.png', class="img-fluid")
+              img(src='@/assets/curso/temas/tema_2/img_3.png', class="img-fluid")
         .row.justify-content-center.align-items-center
           .col-12.col-lg-4.order-2.order-lg-1.mb-0
             h5 Dimensión económica
             p.mb-0 Garantiza soluciones de movilidad sostenibles mediante costos operativos optimizados, eficiencia económica, inversión en tecnologías limpias con retorno y apoyo al desarrollo económico local y regional, asegurando viabilidad financiera a largo plazo.
           .col-12.col-lg-6.order-1.order-lg-2.mb-lg-0.mb-3
             figure
-              img(src='@/assets/curso/temas/tema_2/img_3.png', class="img-fluid")
+              img(src='@/assets/curso/temas/tema_2/img_4.png', class="img-fluid")
 
     separador
 
@@ -46,7 +52,7 @@
       .h2(data-aos="fade-right") 2.2 Importancia
     .mb-3
 
-    .bg_img_1.mb-3
+    .bg_img_6.mb-3
       p.mb-5 La importancia de la sostenibilidad en la movilidad radica en varios pilares clave:
       
       .row.justify-content-center.align-items-start.mb-0
@@ -62,7 +68,7 @@
               p.mb-0La inversión inicial en infraestructura y tecnologías sostenibles puede ser alta, a largo plazo se traduce en menores costos de operación y mantenimiento. Además, una movilidad accesible y equitativa mejora la inclusión social y fomenta el desarrollo económico al facilitar el acceso a oportunidades laborales y servicios.
         .col-9.col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="flip-left")
           figure
-            img(src='@/assets/curso/temas/tema_2/img_4.png', class="img-fluid")
+            img(src='@/assets/curso/temas/tema_2/img_5.png', class="img-fluid")
     
 
     separador
@@ -74,7 +80,7 @@
     .row.justify-content-center.align-items-center.mb-0
       .col-12.col-lg-4.mb-lg-0.mb-3(data-aos="zoom-in-right")
         figure(data-aos="zoom-out-up")
-          img(src='@/assets/curso/temas/tema_2/img_5.png', class="img-fluid")
+          img(src='@/assets/curso/temas/tema_2/img_6.png', class="img-fluid")
       .col-12.col-lg-8.mb-0
         TabsA.mb-0.tarjeta-tabs-a.color-primario-10
           .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Electrificación masiva de flotas")

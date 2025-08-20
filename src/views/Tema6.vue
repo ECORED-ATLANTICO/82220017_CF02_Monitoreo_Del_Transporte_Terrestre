@@ -7,8 +7,13 @@
         span 6
       h1(data-aos="fade-right") Procedimiento
     
-    .col-12.col-lg-12.p-0
-      p.mb-5 El procedimiento del monitoreo vial se desarrolla como un proceso continuo y sistemático, orientado a recopilar, analizar y evaluar información sobre el tránsito y la infraestructura vial. Este enfoque garantiza un seguimiento permanente de variables como velocidad, flujo vehicular, accidentalidad y estado de las vías, permitiendo identificar problemas, aplicar correctivos oportunos y fortalecer la seguridad y eficiencia en la movilidad.
+    .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
+      .bloque-texto-t__img.mb-0
+        img(src='@/assets/curso/temas/tema_6/img_11.png')
+      .bloque-texto-t__texto.col-10.mb-0
+        p.mb-0 El procedimiento del monitoreo vial se desarrolla como un proceso continuo y sistemático, orientado a recopilar, analizar y evaluar información sobre el tránsito y la infraestructura vial. Este enfoque garantiza un seguimiento permanente de variables como velocidad, flujo vehicular, accidentalidad y estado de las vías, permitiendo identificar problemas, aplicar correctivos oportunos y fortalecer la seguridad y eficiencia en la movilidad.
+    
+    separador
 
     #t_6_1.titulo-segundo.color-acento-contenido
       .h2(data-aos="fade-right") 6.1 Proceso continuo

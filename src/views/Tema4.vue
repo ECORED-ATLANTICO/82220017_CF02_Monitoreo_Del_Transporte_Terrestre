@@ -7,9 +7,14 @@
         span 4
       h1(data-aos="fade-right") Plan de monitoreo vial
     
-    .col-12.col-lg-12.p-0
-      p.mb-5 El plan de monitoreo vial orienta la gestión del tránsito mediante distintos tipos enfocados en seguridad, flujo, infraestructura o normatividad. Sus elementos abarcan objetivos, indicadores, recursos y estrategias, mientras su procedimiento de elaboración incluye diagnóstico, definición de metas, selección de métodos, implementación y evaluación continua.
-   
+    .bloque-texto-t.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-right")
+      .bloque-texto-t__img.mb-0
+        img(src='@/assets/curso/temas/tema_4/img_18.png')
+      .bloque-texto-t__texto.col-10.mb-0
+        p.mb-0 El plan de monitoreo vial orienta la gestión del tránsito mediante distintos tipos enfocados en seguridad, flujo, infraestructura o normatividad. Sus elementos abarcan objetivos, indicadores, recursos y estrategias, mientras su procedimiento de elaboración incluye diagnóstico, definición de metas, selección de métodos, implementación y evaluación continua.
+    
+    separador
+
     #t_4_1.titulo-segundo.color-acento-contenido
       .h2(data-aos="fade-right") 4.1 Concepto
     .mb-3

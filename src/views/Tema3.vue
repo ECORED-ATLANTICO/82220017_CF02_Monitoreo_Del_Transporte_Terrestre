@@ -6,15 +6,20 @@
       .titulo-principal__numero
         span 3
       h1(data-aos="fade-right") Monitoreo vial
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-lg-4.mb-lg-0.mb-3
+        figure
+          img(src='@/assets/curso/temas/tema_3/img_30.png', class="img-fluid")
+      .col-12.col-lg-7 
+        p.mb-0 Gestiona la movilidad mediante sistemas tecnológicos como cámaras y sensores, aplicados en distintos tipos de control de tráfico, infracciones e infraestructura. Sus políticas regulan las prácticas, mientras los criterios de medición valoran velocidad, flujo, accidentalidad y estado de vías. Por otro lado, los métodos incluyen observación directa y análisis automatizado, apoyados en herramientas como software, drones y plataformas inteligentes.
 
-    .col-12.col-lg-12.p-0
-      p.mb-5 Gestiona la movilidad mediante sistemas tecnológicos como cámaras y sensores, aplicados en distintos tipos de control de tráfico, infracciones e infraestructura. Sus políticas regulan las prácticas, mientras los criterios de medición valoran velocidad, flujo, accidentalidad y estado de vías. Por otro lado, los métodos incluyen observación directa y análisis automatizado, apoyados en herramientas como software, drones y plataformas inteligentes.
+    separador
 
     #t_3_1.titulo-segundo.color-acento-contenido
       .h2(data-aos="fade-right") 3.1 Concepto
     .mb-3
 
-    .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-0
+    .bloque-texto-g.bloque-texto-g--inverso.color-acento-botones.p-3.p-sm-4.p-md-5.mb-0
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema_3/img_1.png')})`}"
         )
@@ -38,22 +43,22 @@
           span.label-title Objetivos:
         .row.justify-content-center.align-items-center
           .col-12.col-lg-8.mb-lg-0.order-2.order-lg-1.mb-3(data-aos='zoom-in-right')
-            .tarjeta.color-secundario-5.p-4.rounded-0.mb-0
+            .tarjeta.color-acento-contenido-5.p-4.rounded-0.mb-0
               ul.list-unstyled
-                li.d-flex.align-items-start.mb-1
-                  i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #4C77AE; font-size: 15px; line-height: 1.5;")
+                li.d-flex.align-items-start.mb-1.border-bottom.border-dashed.pb-2
+                  i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #C5AE46; font-size: 15px; line-height: 1.5;")
                   |   Supervisar el flujo vehicular y peatonal.
-                li.d-flex.align-items-start.mb-1
-                  i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #4C77AE; font-size: 15px; line-height: 1.5;")
+                li.d-flex.align-items-start.mb-1.border-bottom.border-dashed.pb-2
+                  i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #C5AE46; font-size: 15px; line-height: 1.5;")
                   |   Detectar incidentes, congestiones y condiciones anómalas.
-                li.d-flex.align-items-start.mb-1
-                  i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #4C77AE; font-size: 15px; line-height: 1.5;")
+                li.d-flex.align-items-start.mb-1.border-bottom.border-dashed.pb-2
+                  i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #C5AE46; font-size: 15px; line-height: 1.5;")
                   |   Apoyar la planificación vial y logística.
-                li.d-flex.align-items-start.mb-1
-                  i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #4C77AE; font-size: 15px; line-height: 1.5;")
+                li.d-flex.align-items-start.mb-1.border-bottom.border-dashed.pb-2
+                  i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #C5AE46; font-size: 15px; line-height: 1.5;")
                   |   Coordinar respuestas rápidas ante emergencias.
                 li.d-flex.align-items-start.mb-0
-                  i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #4C77AE; font-size: 15px; line-height: 1.5;")
+                  i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #C5AE46; font-size: 15px; line-height: 1.5;")
                   |   Promover la movilidad segura y sustentable.
           .col-12.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0(data-aos='zoom-in-right')
             figure
@@ -89,7 +94,12 @@
       .h2(data-aos="fade-right") 3.3 Tipos de monitoreo vial
     .mb-3
 
-    p.mb-5 Los sistemas de monitoreo vial pueden clasificarse según su finalidad operativa, la tecnología aplicada o el nivel de intervención en la gestión del tránsito. Esta categorización permite una mejor planificación de la infraestructura tecnológica y la aplicación de políticas públicas eficientes. Se identifican principalmente los siguientes tipos:
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-1.d-lg-block.d-none(data-aos="zoom-in-right")
+        figure
+          img(src='@/assets/curso/temas/tema_3/img_31.png', class="img-fluid") 
+      .col-12.col-lg-11(data-aos="zoom-in-right")
+        p.mb-0 Los sistemas de monitoreo vial pueden clasificarse según su finalidad operativa, la tecnología aplicada o el nivel de intervención en la gestión del tránsito. Esta categorización permite una mejor planificación de la infraestructura tecnológica y la aplicación de políticas públicas eficientes. Se identifican principalmente los siguientes tipos:
     
     .bg_img_2.mb-3
       SlyderA(tipo="b").tarjeta.tarjeta--blanca.p-4
@@ -173,7 +183,7 @@
       .h2(data-aos="fade-right") 3.5 Criterios de medición de monitoreo vial
     .mb-3
 
-    .bloque-texto-g.bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema_3/img_15.png')})`}"
         )
@@ -209,20 +219,20 @@
 
     .row.justify-content-center.align-items-center
       .col-12.col-lg-7.mb-lg-0.order-2.order-lg-1.mb-3(data-aos='zoom-in-right')
-        .tarjeta.color-primario-10.p-4.rounded-0.mb-0
+        .tarjeta.color-acento-contenido-5.p-4.rounded-0.mb-0
           p.mb-3 Importancia de la medición la aplicar estos criterios permite:
           ul.list-unstyled
-            li.d-flex.align-items-start.mb-2
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #4C77AE; font-size: 15px; line-height: 1.5;")
+            li.d-flex.align-items-start.mb-2.border-bottom.border-dashed.pb-2
+              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:  #C5AE46; font-size: 15px; line-height: 1.5;")
               |   Optimizar la toma de decisiones en políticas públicas.
-            li.d-flex.align-items-start.mb-2
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #4C77AE; font-size: 15px; line-height: 1.5;")
+            li.d-flex.align-items-start.mb-2.border-bottom.border-dashed.pb-2
+              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:  #C5AE46; font-size: 15px; line-height: 1.5;")
               |   Justificar inversiones en infraestructura tecnológica.
-            li.d-flex.align-items-start.mb-2
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #4C77AE; font-size: 15px; line-height: 1.5;")
+            li.d-flex.align-items-start.mb-2.border-bottom.border-dashed.pb-2
+              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:  #C5AE46; font-size: 15px; line-height: 1.5;")
               |   Reducir los riesgos operacionales y mejorar la seguridad.
-            li.d-flex.align-items-start.mb-1
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #4C77AE; font-size: 15px; line-height: 1.5;")
+            li.d-flex.align-items-start.mb-1.border-bottom.border-dashed.pb-2
+              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:  #C5AE46; font-size: 15px; line-height: 1.5;")
               |   Garantizar un transporte más eficiente, predecible y sostenible.
       .col-12.col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0(data-aos='zoom-in-right')
         figure
@@ -243,19 +253,19 @@
       .col-12.col-lg-8
         .custom-slider.p-5.p-sm-3(data-aos="zoom-in-right")
           SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-2.rounded-3
-            .tarjeta--color-primario-10.h-100
+            .tarjeta--color-acento-contenido-5.h-100
               .tarjeta--7
               .tarjeta--slider__title.mb-3.bg-color-acento-contenido.text-center.fw-bold Monitoreo directo (<I>In Situ</I>).
               .tarjeta--slider__content.text-center Consiste en la observación presencial y visual del comportamiento vehicular, realizada por personal técnico o mediante dispositivos instalados en el terreno. Aplicación: Inspecciones de tránsito, manual de vigilancia, operativos de control vial.
-            .tarjeta--color-primario-10.h-100
+            .tarjeta--color-acento-contenido-5.h-100
               .tarjeta--8
               .tarjeta--slider__title.mb-3.bg-color-acento-contenido.text-center.fw-bold Monitoreo automatizado.
               .tarjeta--slider__content.text-center Utilice sensores y sistemas electrónicos para la captura continua de datos sin necesidad de intervención humana directa. Aplicación: Conteo vehicular, medición de velocidad, monitoreo de condiciones ambientales.
-            .tarjeta--color-primario-10.h-100
+            .tarjeta--color-acento-contenido-5.h-100
               .tarjeta--9
               .tarjeta--slider__title.mb-3.bg-color-acento-contenido.text-center.fw-bold Monitoreo remoto.
               .tarjeta--slider__content.text-center Emplea tecnologías inalámbricas o satelitales para monitorear el estado del tránsito y la infraestructura a distancia, en tiempo real. Aplicación: Sistemas <I>GPS</I>, cámaras <I>IP</I>, estaciones meteorológicas remotas.
-            .tarjeta--color-primario-10.h-100
+            .tarjeta--color-acento-contenido-5.h-100
               .tarjeta--10
               .tarjeta--slider__title.mb-3.bg-color-acento-contenido.text-center.fw-bold Monitoreo predictivo.
               .tarjeta--slider__content.text-center Se basa en el análisis de datos históricos y el uso de modelos estadísticos o algoritmos para anticipar patrones de comportamiento vial. Aplicación: Sistemas de alerta temprana, planificación proactiva de rutas, análisis de riesgo vial. 
