@@ -125,17 +125,42 @@
         .h2(data-aos="fade-right") 4.4 Procedimiento de elaboración de un plan de monitoreo vial
       .mb-3
 
-      .titulo-sexto.color-acento-contenido
-        h5 Figura 2.
-        |    Procedimiento de elaboración de un plan de monitoreo vial
-      figure
-        img(src='@/assets/curso/temas/tema_4/img_14.png', class="img-fluid d-none d-lg-block")
-        img(src='@/assets/curso/temas/tema_4/img_15.png', class="img-fluid d-block d-lg-none")
-        figcaption <b>Fuente.</b> SENA, 2025.
+      .row.justify-content-center.align-items-stard.mb-5
+        .col-12.col-lg-6.mb-lg-0.mb-3(data-aos="zoom-in-right")
+          figure
+            img(src='@/assets/curso/temas/tema_4/img_14.png', class="img-fluid") 
 
-
-
-
+        .col-12.col-lg-6(data-aos="zoom-in-right")
+          .container.tarjeta.tarjeta--blanca.p-4.p-md-0
+          .tarjeta.tarjeta--gris.p-4
+            PasosB.color-primario
+              .row(titulo="Diagnostico")
+                .col-md-12.mb-4.mb-md-0
+                  p Realizar un análisis exhaustivo de la situación actual, identificando los problemas, desafíos y oportunidades en la operación del transporte o en la gestión vial. Definir qué información es crucial para mejorar el desempeño.              
+              .row(titulo="Establecimiento de objetivos y <i>KPIs</i>")
+                .col-md-12.mb-4.mb-md-0
+                  p con base en el diagnóstico, formular objetivos SMART (Específicos, Medibles, Alcanzables, Relevantes, con Plazo Definido) y seleccionar los KPIs más adecuados para medir el progreso hacia esos objetivos.          
+              .row(titulo="Diseño de la metodología de recolección de datos")
+                .col-md-12.mb-4.mb-md-0
+                  p Determinar las fuentes de datos (ej. sensores, <i>GPS</i>, manuales), los métodos de captura (automática, manual) y los protocolos de muestreo si aplica. Se define cómo asegurar la calidad y consistencia de los datos.              
+              .row(titulo="Selección de tecnologías y herramientas")
+                .col-md-12.mb-4.mb-md-0
+                  p Elegir los sistemas de software (plataformas de telemetría, <i>software</i> de gestión de flotas, herramientas de <i>BI</i>) y los dispositivos de <i>hardware</i> (<i>trackers GPS</i>, sensores, <i>dashcams</i>) que se ajusten a las necesidades y al presupuesto.             
+              .row(titulo="Definición de roles, responsabilidades y capacitación")
+                .col-md-12.mb-4.mb-md-0
+                  p Asignar claramente las funciones dentro del equipo de monitoreo y asegurar que el personal esté debidamente capacitado en el uso de las herramientas y en los procedimientos establecidos.
+              .row(titulo="Desarrollo del protocolo de análisis")
+                .col-md-12.mb-4.mb-md-0
+                  p diseñar cómo se analizarán los datos (análisis descriptivo, predictivo, prescriptivo) y qué formatos tendrán los informes (<i>dashboards</i> = reportes ejecutivos), incluyendo la frecuencia y los destinatarios.              
+              .row(titulo="Establecimiento de un cronograma detallado y presupuesto")
+                .col-md-12.mb-4.mb-md-0
+                  p Planificar las fases de implementación, los hitos clave y la asignación de recursos financieros.
+              .row(titulo="Validación y aprobación")
+                .col-md-12.mb-4.mb-md-0
+                  p Presentar el plan a las partes interesadas (gerencia, equipos operativos, áreas de TI) para su revisión, ajuste y aprobación formal.
+              .row(titulo="Implementación piloto y ajustes")
+                .col-md-12.mb-4.mb-md-0
+                  p Antes de una implementación a gran escala, es recomendable realizar una fase piloto para probar el plan, identificar posibles fallas o mejoras y realizar los ajustes necesarios.
 </template>
 
 <script>

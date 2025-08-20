@@ -7,6 +7,9 @@
         span 2
       h1 Sostenibilidad en la movilidad
 
+    col-12.col-lg-12.p-0
+      p.mb-5 garantizar sistemas de transporte eficientes, accesibles y respetuosos con el medio ambiente, reduciendo emisiones y optimizando recursos. Su importancia radica en que contribuye a la calidad de vida, promueve ciudades más seguras y saludables, y apoya el desarrollo económico responsable. Entre las principales tendencias destacan la electrificación del transporte, el impulso de la movilidad activa (bicicletas y caminatas), la intermodalidad y el uso de tecnologías inteligentes para mejorar la eficiencia y disminuir el impacto ambiental
+
     #t_2_1.titulo-segundo.color-acento-contenido
       .h2(data-aos="fade-right") 2.1 Concepto
     .mb-3
