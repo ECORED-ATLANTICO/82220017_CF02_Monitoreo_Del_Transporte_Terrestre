@@ -5,7 +5,11 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Movilidad inteligente
+      h1(data-aos="fade-right") Movilidad inteligente
+      
+    .col-12.col-lg-12.p-0
+      p.mb-5 Se entiende como un modelo de transporte innovador que integra tecnologías digitales, sostenibilidad y planificación urbana eficiente para mejorar la forma en que las personas y bienes se desplazan. Su concepto se centra en el uso de herramientas como la conectividad, la automatización y el análisis de datos para optimizar recursos, reducir tiempos y minimizar impactos ambientales. La importancia radica en que promueve ciudades más seguras, sostenibles y accesibles, contribuyendo a la calidad de vida y a la competitividad económica.
+     
 
     #t_1_1.titulo-segundo.color-acento-contenido
       .h2(data-aos="fade-right") 1.1	Concepto

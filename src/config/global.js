@@ -275,8 +275,7 @@ export default {
       referencia:
         'Departamento Nacional de Planeación. (2017). <em>Manual de innovación en movilidad y transporte.</em> DNP. ',
       tipo: 'Manual PDF',
-      link:
-        'https://portalterritorial.dnp.gov.co/KitOT/Content/uploads/Manual%20innovacion%20Movilidad%20y%20Transporte%20PDF.pdf',
+      link: 'downloads/Manual_innovacion_Movilidad_y_Transporte.pdf',
     },
   ],
   glosario: [

@@ -5,7 +5,10 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Monitoreo vial
+      h1(data-aos="fade-right") Monitoreo vial
+
+    .col-12.col-lg-12.p-0
+      p.mb-5 Gestiona la movilidad mediante sistemas tecnológicos como cámaras y sensores, aplicados en distintos tipos de control de tráfico, infracciones e infraestructura. Sus políticas regulan las prácticas, mientras los criterios de medición valoran velocidad, flujo, accidentalidad y estado de vías. Por otro lado, los métodos incluyen observación directa y análisis automatizado, apoyados en herramientas como software, drones y plataformas inteligentes.
 
     #t_3_1.titulo-segundo.color-acento-contenido
       .h2(data-aos="fade-right") 3.1 Concepto
@@ -78,7 +81,7 @@
         figure
           img(src='@/assets/curso/temas/tema_3/img_4.svg', class="img-fluid d-none d-lg-block")
           img(src='@/assets/curso/temas/tema_3/img_5.svg', class="img-fluid d-block d-lg-none")
-          figcaption <b>Fuente.</b> SENA, 2025.
+          figcaption <b>Fuente:</b> SENA, 2025.
 
     separador
 

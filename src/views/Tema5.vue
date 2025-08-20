@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 5
-      h1 Dispositivos de seguimiento
+      h1(data-aos="fade-right") Dispositivos de seguimiento
 
     .tarjeta.color-primario-10.rounded-0.p-0.mb-5
       .row.justify-content-center.align-items-center.mb-0
@@ -128,7 +128,7 @@
       img(src='@/assets/curso/temas/tema_5/img_14.png', class="img-fluid d-block d-lg-none mb-3")
       img(src='@/assets/curso/temas/tema_5/img_15.png', class="img-fluid d-block d-lg-none mb-3")
       img(src='@/assets/curso/temas/tema_5/img_16.png', class="img-fluid d-block d-lg-none mb-3")
-      figcaption <b>Fuente.</b> SENA, 2025.
+      figcaption <b>Fuente:</b> SENA, 2025.
     
     .bg_img_4.mb-3
 
