@@ -96,7 +96,7 @@
             p.mb-0 <B>Alcance:</B> establecer qué aspectos se monitorearán (ej. toda la flota, un tramo vial específico, solo vehículos de carga pesada).
         .tarjeta.color-acento-contenido-5.p-4.rounded-0.mb-3(data-aos='zoom-in-right')
           p.mb-3 <B>Indicadores clave de desempeño (<I>KPIs</I>):</B> las métricas específicas que se utilizarán para medir el progreso hacia los objetivos (ej. <I>OTD</I>, consumo de combustible por km, número de incidentes, velocidad promedio).
-          p.mb-0 <B>Fuentes de datos:</B> 
+          p.mb-0 <B>Fuentes de datos:</B> dentificar de dónde provendrá la información (ej. <I>GPS</I>, sensores <I>IoT</I>, tacógrafos digitales, cámaras de tráfico, reportes de conductores, datos de telemática vehicular).
         p.mb-0(data-aos='zoom-in-right') <B>Tecnologías y herramientas:</B> detallar los sistemas de software (<I>TMS, FMS, BI</I>) y hardware (dispositivos de seguimiento, sensores) que se emplearán para la recolección, procesamiento y análisis de datos.
 
     .custom-slider.p-5.p-sm-3(data-aos="zoom-in-right")

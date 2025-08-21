@@ -28,35 +28,35 @@
       .col-12.col-lg-8
         .custom-slider.p-5.p-sm-3(data-aos="zoom-in-right")
           SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-2.rounded-3
-            .tarjeta.bg-img-01
+            .tarjeta--color-primario-10.h-100
               .tarjeta--21
               .tarjeta--slider__title.mb-3.text-center.fw-bold Dispositivo <I>GPS</I> (sistema de posicionamiento global). 
               .tarjeta--slider__content.text-center Ventajas: precisión, cobertura amplia, integración con otros sistemas.
-            .tarjeta.bg-img-01
+            .tarjeta--color-primario-10.h-100
               .tarjeta--22
               .tarjeta--slider__title.mb-3.text-center.fw-bold Cámaras de video vigilancia (<I>CCTV</I>).
               .tarjeta--slider__content.text-center Tipos: cámaras fijas, <I>PTZ</I> (giran y hacen <I>zoom</I>), térmicas (para condiciones de baja visibilidad).
-            .tarjeta.bg-img-01
+            .tarjeta--color-primario-10.h-100
               .tarjeta--23
               .tarjeta--slider__title.mb-3.text-center.fw-bold Sensores de velocidad y flujo vehicular.
               .tarjeta--slider__content.text-center Tipos: Sensores inductivos, piezoeléctricos, radar y láser.
-            .tarjeta.bg-img-01
+            .tarjeta--color-primario-10.h-100
               .tarjeta--24
               .tarjeta--slider__title.mb-3.text-center.fw-bold Estaciones meteorológicas móviles o fijas.
               .tarjeta--slider__content.text-center Ventajas: integración con sistemas de gestión de riesgos viales.
-            .tarjeta.bg-img-01
+            .tarjeta--color-primario-10.h-100
               .tarjeta--25
               .tarjeta--slider__title.mb-3.text-center.fw-bold Dispositivos <I>RFID</I> (Identificación por radiofrecuencia)
               .tarjeta--slider__content.text-center Ventajas: lectura sin contacto, rápida y automatizada.
-            .tarjeta.bg-img-01
+            .tarjeta--color-primario-10.h-100
               .tarjeta--26
               .tarjeta--slider__title.mb-3.text-center.fw-bold Aplicaciones móviles y dispositivos embarcados
               .tarjeta--slider__content.text-center Ejemplos: <I>apps</I> de movilidad, tabletas con <I>software</I> logístico, asistentes de conducción
-            .tarjeta.bg-img-01
+            .tarjeta--color-primario-10.h-100
               .tarjeta--27
               .tarjeta--slider__title.mb-3.text-center.fw-bold Drones (vehículos aéreos no tripulados).
               .tarjeta--slider__content.text-center Ventajas: vista panorámica, despliegue ágil, acceso a zonas difíciles.
-            .tarjeta.bg-img-01
+            .tarjeta--color-primario-10.h-100
               .tarjeta--28
               .tarjeta--slider__title.mb-3.text-center.fw-bold Balanzas dinámicas y sensores de peso
               .tarjeta--slider__content.text-center.mb-5 Aplicaciones: Control de carga, detección de sobrepeso, preservación de la infraestructura vial.
@@ -143,8 +143,8 @@
           figure
             img(src='@/assets/curso/temas/tema_5/img_17.png', class="img-fluid")
         .col-12.col-lg-9
-          .cajon.color-acento-contenido.p-4.mb-3
-            p.mb-0.text-center La automatización en el seguimiento implica que los dispositivos no solo recopilan y transmiten datos (como ubicación, velocidad o estado del motor), sino que también ejecutan acciones o generan alertas automáticamente basándose en reglas predefinidas o eventos específicos. Esto reduce drásticamente la necesidad de intervención humana constante y permite una toma de decisiones más rápida y eficiente.
+          .cajon.color-secundario-5.p-4.mb-3
+            p.mb-0 La automatización en el seguimiento implica que los dispositivos no solo recopilan y transmiten datos (como ubicación, velocidad o estado del motor), sino que también ejecutan acciones o generan alertas automáticamente basándose en reglas predefinidas o eventos específicos. Esto reduce drásticamente la necesidad de intervención humana constante y permite una toma de decisiones más rápida y eficiente.
           .row.justify-content-center.align-items-center
             .col-12.col-lg-9.order-2.order-lg-1(data-aos='zoom-in-right').mb-0
               p.mb-0 Los sistemas se configuran para disparar alertas instantáneas y automáticas a personal (gerentes de flota, conductores, equipos de seguridad) a través de SMS, correo electrónico o notificaciones en aplicaciones móviles cuando se cumplen ciertas condiciones. Ejemplos: 
@@ -156,25 +156,25 @@
       .col-12.col-lg-8.order-2.order-lg-1
         .custom-slider.p-5.p-sm-3(data-aos="zoom-in-right")
           SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-2.rounded-3
-            .tarjeta.bg-img-01
+            .tarjeta--color-primario-10.h-100
               .tarjeta--29 
               .tarjeta--slider__content.text-center.mb-5 <B>Geocercas:</B> entrada o salida de zonas predefinidas (patios, zonas de entrega, áreas restringidas). Ideal para control de rutas o seguridad de carga.
-            .tarjeta.bg-img-01
+            .tarjeta--color-primario-10.h-100
               .tarjeta--30
               .tarjeta--slider__content.text-center <B>Exceso de velocidad:</B> cuando un vehículo supera un límite de velocidad establecido.
-            .tarjeta.bg-img-01
+            .tarjeta--color-primario-10.h-100
               .tarjeta--31 
               .tarjeta--slider__content.text-center <B>Horarios fuera de ruta:</B> uso del vehículo fuera de horarios laborales o en rutas no autorizadas.
-            .tarjeta.bg-img-01
+            .tarjeta--color-primario-10.h-100
               .tarjeta--32 
               .tarjeta--slider__content.text-center <B>Mantenimiento preventivo:</B> alertas basadas en el kilometraje o las horas de motor para programar revisiones.
-            .tarjeta.bg-img-01
+            .tarjeta--color-primario-10.h-100
               .tarjeta--33 
               .tarjeta--slider__content.text-center <B>Comportamiento de conducción agresivo:</B> notificaciones sobre frenadas o aceleraciones bruscas, fomentando la conducción segura.
-            .tarjeta.bg-img-01
+            .tarjeta--color-primario-10.h-100
               .tarjeta--34 
               .tarjeta--slider__content.text-center <B>Activación de sensores:</B> alerta si una puerta de carga se abre inesperadamente o si la temperatura de un contenedor refrigerado se sale del rango.
-            .tarjeta.bg-img-01
+            .tarjeta--color-primario-10.h-100
               .tarjeta--35 
               .tarjeta--slider__content.text-center <B>Detección de colisiones o vuelcos:</B> notificaciones críticas para respuesta de emergencia.
       .col-12.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
@@ -186,16 +186,16 @@
         h3(data-aos='zoom-in-right').mb-4
           span.label-title Acciones automatizadas y control remoto.
       .col-12.col-lg-10(data-aos='zoom-in-right')
-        .tarjeta.color-secundario-5.p-4.rounded-0.mb-0
+        .tarjeta.color-acento-contenido-5.p-4.rounded-0.mb-0
           ul.list-unstyled
-            li.d-flex.align-items-start.mb-3
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #4C77AE; font-size: 15px; line-height: 1.5;")
+            li.d-flex.align-items-start.mb-3.border-bottom.border-dashed.pb-2
+              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #C5AE46; font-size: 15px; line-height: 1.5;")
               span <B>Corte remoto de motor:</B> en caso de robo, el sistema puede apagar el motor del vehículo de forma segura.
-            li.d-flex.align-items-start.mb-3
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #4C77AE; font-size: 15px; line-height: 1.5;")
+            li.d-flex.align-items-start.mb-3.border-bottom.border-dashed.pb-2
+              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #C5AE46; font-size: 15px; line-height: 1.5;")
               span <B>Activación de alarmas:</B> disparar alarmas sonoras o visuales en el vehículo.
             li.d-flex.align-items-start.mb-0
-              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #4C77AE; font-size: 15px; line-height: 1.5;")
+              i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #C5AE46; font-size: 15px; line-height: 1.5;")
               span <B>Control de acceso:</B> gestionar el encendido del vehículo solo para conductores autorizados (ej. mediante <I>RFID o PIN</I>).
 </template>
 

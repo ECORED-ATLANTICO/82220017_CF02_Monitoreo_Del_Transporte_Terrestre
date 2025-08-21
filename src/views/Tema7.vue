@@ -132,23 +132,23 @@
       .col-12.col-lg-8.order-2.order-lg-1
         .custom-slider.p-5.p-sm-3(data-aos="zoom-in-right")
           SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-2.rounded-3
-            .tarjeta.bg-img-01
+            .tarjeta--color-acento-contenido-5.h-100
               .tarjeta--41
               .tarjeta--slider__title.mb-3.text-center.fw-bold  Eventos de conducción agresiva
               .tarjeta--slider__content.text-center.mb-5 cuantificación de frenadas bruscas, aceleraciones repentinas y giros bruscos. Se puede presentar por conductor o por vehículo.
-            .tarjeta.bg-img-01
+            .tarjeta--color-acento-contenido-5.h-100
               .tarjeta--42
               .tarjeta--slider__title.mb-3.text-center.fw-bold Excesos de velocidad
               .tarjeta--slider__content.text-center.mb-5 número y duración de los eventos de exceso de velocidad, identificando puntos críticos o conductores reincidentes.
-            .tarjeta.bg-img-01
+            .tarjeta--color-acento-contenido-5.h-100
               .tarjeta--43
               .tarjeta--slider__title.mb-3.text-center.fw-bold Uso del cinturón de seguridad
               .tarjeta--slider__content.text-center.mb-5 detección de uso inadecuado si el dispositivo lo permite.
-            .tarjeta.bg-img-01
+            .tarjeta--color-acento-contenido-5.h-100
               .tarjeta--44
               .tarjeta--slider__title.mb-3.text-center.fw-bold Consumo de combustible por conductor
               .tarjeta--slider__content.text-center.mb-5 medición del promedio de consumo para identificar hábitos de conducción eficientes o ineficientes.
-            .tarjeta.bg-img-01
+            .tarjeta--color-acento-contenido-5.h-100
               .tarjeta--45
               .tarjeta--slider__title.mb-3.text-center.fw-bold Tiempos de descanso y cumplimiento de normativas
               .tarjeta--slider__content.text-center.mb-5 verificación de que los conductores cumplan con los tiempos de descanso obligatorios.

@@ -242,34 +242,35 @@
 
     separador
 
-    #t_3_6.titulo-segundo.color-acento-contenido
-      .h2(data-aos="fade-right") 3.6. Métodos de monitoreo vial
-    .mb-3
-    p.mb-3 Los métodos de monitoreo vial se clasifican en función del tipo de información recolectada, el grado de intervención requerida y el nivel de automatización tecnológica. Se identifican cuatro categorías principales:
+    .bg_img_6.mb-3
+      #t_3_6.titulo-segundo.color-acento-contenido
+        .h2(data-aos="fade-right") 3.6. Métodos de monitoreo vial
+      .mb-3
+      p.mb-3 Los métodos de monitoreo vial se clasifican en función del tipo de información recolectada, el grado de intervención requerida y el nivel de automatización tecnológica. Se identifican cuatro categorías principales:
     
-    .row.justify-content-center.align-items-center.mb-0
-      .col-12.col-lg-4.mb-lg-0.mb-3(data-aos="zoom-in-right")
-        figure(data-aos="zoom-out-up")
-          img(src='@/assets/curso/temas/tema_3/img_18.png', class="img-fluid")
-      .col-12.col-lg-8
-        .custom-slider.p-5.p-sm-3(data-aos="zoom-in-right")
-          SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-2.rounded-3
-            .tarjeta--color-acento-contenido-5.h-100
-              .tarjeta--7
-              .tarjeta--slider__title.mb-3.bg-color-acento-contenido.text-center.fw-bold Monitoreo directo (<I>In Situ</I>).
-              .tarjeta--slider__content.text-center Consiste en la observación presencial y visual del comportamiento vehicular, realizada por personal técnico o mediante dispositivos instalados en el terreno. Aplicación: Inspecciones de tránsito, manual de vigilancia, operativos de control vial.
-            .tarjeta--color-acento-contenido-5.h-100
-              .tarjeta--8
-              .tarjeta--slider__title.mb-3.bg-color-acento-contenido.text-center.fw-bold Monitoreo automatizado.
-              .tarjeta--slider__content.text-center Utilice sensores y sistemas electrónicos para la captura continua de datos sin necesidad de intervención humana directa. Aplicación: Conteo vehicular, medición de velocidad, monitoreo de condiciones ambientales.
-            .tarjeta--color-acento-contenido-5.h-100
-              .tarjeta--9
-              .tarjeta--slider__title.mb-3.bg-color-acento-contenido.text-center.fw-bold Monitoreo remoto.
-              .tarjeta--slider__content.text-center Emplea tecnologías inalámbricas o satelitales para monitorear el estado del tránsito y la infraestructura a distancia, en tiempo real. Aplicación: Sistemas <I>GPS</I>, cámaras <I>IP</I>, estaciones meteorológicas remotas.
-            .tarjeta--color-acento-contenido-5.h-100
-              .tarjeta--10
-              .tarjeta--slider__title.mb-3.bg-color-acento-contenido.text-center.fw-bold Monitoreo predictivo.
-              .tarjeta--slider__content.text-center Se basa en el análisis de datos históricos y el uso de modelos estadísticos o algoritmos para anticipar patrones de comportamiento vial. Aplicación: Sistemas de alerta temprana, planificación proactiva de rutas, análisis de riesgo vial. 
+      .row.justify-content-center.align-items-center.mb-0
+        .col-12.col-lg-4.mb-lg-0.mb-3(data-aos="zoom-in-right")
+          figure(data-aos="zoom-out-up")
+            img(src='@/assets/curso/temas/tema_3/img_18.png', class="img-fluid")
+        .col-12.col-lg-8
+          .custom-slider.p-5.p-sm-3(data-aos="zoom-in-right")
+            SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-2.rounded-3
+              .tarjeta--color-acento-contenido-5.h-100
+                .tarjeta--7
+                .tarjeta--slider__title.mb-3.bg-color-acento-contenido.text-center.fw-bold Monitoreo directo (<I>In Situ</I>).
+                .tarjeta--slider__content.text-center Consiste en la observación presencial y visual del comportamiento vehicular, realizada por personal técnico o mediante dispositivos instalados en el terreno. Aplicación: Inspecciones de tránsito, manual de vigilancia, operativos de control vial.
+              .tarjeta--color-acento-contenido-5.h-100
+                .tarjeta--8
+                .tarjeta--slider__title.mb-3.bg-color-acento-contenido.text-center.fw-bold Monitoreo automatizado.
+                .tarjeta--slider__content.text-center Utilice sensores y sistemas electrónicos para la captura continua de datos sin necesidad de intervención humana directa. Aplicación: Conteo vehicular, medición de velocidad, monitoreo de condiciones ambientales.
+              .tarjeta--color-acento-contenido-5.h-100
+                .tarjeta--9
+                .tarjeta--slider__title.mb-3.bg-color-acento-contenido.text-center.fw-bold Monitoreo remoto.
+                .tarjeta--slider__content.text-center Emplea tecnologías inalámbricas o satelitales para monitorear el estado del tránsito y la infraestructura a distancia, en tiempo real. Aplicación: Sistemas <I>GPS</I>, cámaras <I>IP</I>, estaciones meteorológicas remotas.
+              .tarjeta--color-acento-contenido-5.h-100
+                .tarjeta--10
+                .tarjeta--slider__title.mb-3.bg-color-acento-contenido.text-center.fw-bold Monitoreo predictivo.
+                .tarjeta--slider__content.text-center Se basa en el análisis de datos históricos y el uso de modelos estadísticos o algoritmos para anticipar patrones de comportamiento vial. Aplicación: Sistemas de alerta temprana, planificación proactiva de rutas, análisis de riesgo vial. 
 
     separador
 
