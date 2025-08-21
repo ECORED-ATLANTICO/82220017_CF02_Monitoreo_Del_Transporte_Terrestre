@@ -61,11 +61,11 @@
             div(titulo="Impacto ambiental")
               p.mb-0 El transporte es uno de los mayores contribuyentes a las emisiones de gases de efecto invernadero y a la contaminación del aire en las ciudades. Una movilidad sostenible busca reducir drásticamente estas emisiones a través de la adopción de vehículos eléctricos, híbridos y de hidrógeno, el fomento del transporte público y la planificación urbana que prioriza la cercanía.
             div(titulo="Eficiencia de recursos")
-              p.mb-0La dependencia de los combustibles fósiles es insostenible a largo plazo. La movilidad sostenible promueve el uso eficiente de la energía y la diversificación hacia fuentes renovables, lo que no solo reduce la huella de carbono, sino que también genera ahorros operativos significativos y disminuye la dependencia de recursos finitos.
+              p.mb-0 La dependencia de los combustibles fósiles es insostenible a largo plazo. La movilidad sostenible promueve el uso eficiente de la energía y la diversificación hacia fuentes renovables, lo que no solo reduce la huella de carbono, sino que también genera ahorros operativos significativos y disminuye la dependencia de recursos finitos.
             div(titulo="Calidad de vida y salud pública")
-              p.mb-0Menos contaminación y ruido se traducen en una mejor calidad del aire, una reducción de enfermedades respiratorias y una mejora general en la salud de la población. Además, la promoción de modos de transporte activos como caminar y andar en bicicleta contribuye a una sociedad más saludable.
+              p.mb-0 Menos contaminación y ruido se traducen en una mejor calidad del aire, una reducción de enfermedades respiratorias y una mejora general en la salud de la población. Además, la promoción de modos de transporte activos como caminar y andar en bicicleta contribuye a una sociedad más saludable.
             div(titulo="Viabilidad económica y social")
-              p.mb-0La inversión inicial en infraestructura y tecnologías sostenibles puede ser alta, a largo plazo se traduce en menores costos de operación y mantenimiento. Además, una movilidad accesible y equitativa mejora la inclusión social y fomenta el desarrollo económico al facilitar el acceso a oportunidades laborales y servicios.
+              p.mb-0 La inversión inicial en infraestructura y tecnologías sostenibles puede ser alta, a largo plazo se traduce en menores costos de operación y mantenimiento. Además, una movilidad accesible y equitativa mejora la inclusión social y fomenta el desarrollo económico al facilitar el acceso a oportunidades laborales y servicios.
         .col-9.col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="flip-left")
           figure
             img(src='@/assets/curso/temas/tema_2/img_5.png', class="img-fluid")
@@ -86,27 +86,27 @@
           .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Electrificación masiva de flotas")
             .row.justify-content-center.align-items-center.mb-0
               .col-12
-                p.mb-0 la transición hacia vehículos eléctricos, desde automóviles particulares hasta autobuses y camiones de carga, es la tendencia más visible. Esto implica un desafío y una oportunidad para ustedes en la instalación y mantenimiento de infraestructura de carga, diagnóstico de sistemas eléctricos y gestión de baterías.
+                p.mb-0 La transición hacia vehículos eléctricos, desde automóviles particulares hasta autobuses y camiones de carga, es la tendencia más visible. Esto implica un desafío y una oportunidad para ustedes en la instalación y mantenimiento de infraestructura de carga, diagnóstico de sistemas eléctricos y gestión de baterías.
           .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Movilidad como Servicio (<I>Mobility as a Service: “MaaS”</I>)")
             .row.justify-content-center.align-items-center.mb-0
               .col-12
-                p.mb-0 integra diversas opciones de transporte en una sola plataforma digital, permitiendo a los usuarios planificar, reservar y pagar sus viajes de manera fluida. El conocimiento en sistemas de información, conectividad y análisis de datos será fundamental para optimizar rutas y servicios.
+                p.mb-0 Integra diversas opciones de transporte en una sola plataforma digital, permitiendo a los usuarios planificar, reservar y pagar sus viajes de manera fluida. El conocimiento en sistemas de información, conectividad y análisis de datos será fundamental para optimizar rutas y servicios.
           .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Vehículos autónomos y conectados")
             .row.justify-content-center.align-items-center.mb-0
               .col-12
-                p.mb-0 los vehículos autónomos prometen optimizar el flujo del tráfico, reducir accidentes y mejorar la eficiencia energética. La conectividad vehicular (<I>V2V, V2I</I>) permitirá una comunicación fluida entre vehículos e infraestructura, lo que exigirá expertos en redes, sensores y ciberseguridad.
+                p.mb-0 Los vehículos autónomos prometen optimizar el flujo del tráfico, reducir accidentes y mejorar la eficiencia energética. La conectividad vehicular (<I>V2V, V2I</I>) permitirá una comunicación fluida entre vehículos e infraestructura, lo que exigirá expertos en redes, sensores y ciberseguridad.
           .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Micro movilidad y transporte activo")
             .row.justify-content-center.align-items-center.mb-0
               .col-12
-                p.mb-0 el auge de las bicicletas eléctricas, patinetes y otros vehículos ligeros para trayectos cortos está redefiniendo los paisajes urbanos. La participación en el diseño de ciclovías, mantenimiento de estos vehículos y sistemas de alquiler será crucial.
+                p.mb-0 El auge de las bicicletas eléctricas, patinetes y otros vehículos ligeros para trayectos cortos está redefiniendo los paisajes urbanos. La participación en el diseño de ciclovías, mantenimiento de estos vehículos y sistemas de alquiler será crucial.
           .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Optimización y logística verde")
             .row.justify-content-center.align-items-center.mb-0
               .col-12
-                p.mb-0 la aplicación de tecnologías como la inteligencia artificial, el <I>Big Data</I> y el Internet de las Cosas (<I>IoT</I>) permite optimizar rutas, gestionar flotas de manera más eficiente y reducir el consumo de combustible y las emisiones en el transporte de mercancías. 
+                p.mb-0 La aplicación de tecnologías como la inteligencia artificial, el <I>Big Data</I> y el Internet de las Cosas (<I>IoT</I>) permite optimizar rutas, gestionar flotas de manera más eficiente y reducir el consumo de combustible y las emisiones en el transporte de mercancías. 
           .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Desarrollo de infraestructura inteligente")
             .row.justify-content-center.align-items-center.mb-0
               .col-12
-                p.mb-0 ciudades y vías inteligentes que integran sensores, sistemas de gestión de tráfico adaptativos y puntos de carga para vehículos eléctricos, son el futuro.
+                p.mb-0 Ciudades y vías inteligentes que integran sensores, sistemas de gestión de tráfico adaptativos y puntos de carga para vehículos eléctricos, son el futuro.
 </template>
 
 <script>

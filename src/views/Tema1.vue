@@ -55,7 +55,7 @@
           SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-2.rounded-3
             .tarjeta.tarjeta--color-primario-10
               .tarjeta--1
-              .tarjeta--slider__title.mb-3.bg-color-secundario.text-center.fw-bold Internet de las Cosas (IoT):
+              .tarjeta--slider__title.mb-3.bg-color-secundario.text-center.fw-bold Internet de las Cosas (<i>IoT</i>).
               .tarjeta--slider__content.text-center Sensores en vehículos, infraestructuras viales, semáforos y la propia carga, que capturan y transmiten datos vitales en tiempo real, permitiendo una visibilidad sin precedentes.
             .tarjeta.tarjeta--color-primario-10
               .tarjeta--2

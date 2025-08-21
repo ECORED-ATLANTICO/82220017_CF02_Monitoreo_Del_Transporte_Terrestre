@@ -79,14 +79,7 @@
                     span Ver video
                     i.fab.fa-youtube.me-2
 
-      .col-12.col-lg-10.mb-3
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 1.
-          |    Tipos de monitoreo vial
-        figure
-          img(src='@/assets/curso/temas/tema_3/img_4.svg', class="img-fluid d-none d-lg-block")
-          img(src='@/assets/curso/temas/tema_3/img_5.svg', class="img-fluid d-block d-lg-none")
-          figcaption <b>Fuente:</b> SENA, 2025.
+      
 
     separador
 
@@ -99,8 +92,16 @@
         figure
           img(src='@/assets/curso/temas/tema_3/img_31.png', class="img-fluid") 
       .col-12.col-lg-11(data-aos="zoom-in-right")
-        p.mb-0 Los sistemas de monitoreo vial pueden clasificarse según su finalidad operativa, la tecnología aplicada o el nivel de intervención en la gestión del tránsito. Esta categorización permite una mejor planificación de la infraestructura tecnológica y la aplicación de políticas públicas eficientes. Se identifican principalmente los siguientes tipos:
-    
+        p.mb-5 Los sistemas de monitoreo vial pueden clasificarse según su finalidad operativa, la tecnología aplicada o el nivel de intervención en la gestión del tránsito. Esta categorización permite una mejor planificación de la infraestructura tecnológica y la aplicación de políticas públicas eficientes. Se identifican principalmente los siguientes tipos:
+
+      .col-12.col-lg-10.mb-3
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 1.
+          |    Tipos de monitoreo vial
+        figure
+          img(src='@/assets/curso/temas/tema_3/img_4.svg', class="img-fluid d-none d-lg-block", alt="En la figura 1 se describen los tipos de monitoreo vial y se describe el sistema de monitoreo vial que se compone de: tecnologías como dispositivos con cámaras y sensores; procesos operativos que son procedimientos para la gestión del tráfico; herramientas analíticas como los software para el análisis de los datos; y las actividades de seguimiento que son las metas para lograr la seguridad y la eficiencia dentro del sistema.")
+          img(src='@/assets/curso/temas/tema_3/img_5.svg', class="img-fluid d-block d-lg-none", alt="En la figura 1 se describen los tipos de monitoreo vial y se describe el sistema de monitoreo vial que se compone de: tecnologías como dispositivos con cámaras y sensores; procesos operativos que son procedimientos para la gestión del tráfico; herramientas analíticas como los software para el análisis de los datos; y las actividades de seguimiento que son las metas para lograr la seguridad y la eficiencia dentro del sistema.")
+          figcaption <b>Fuente:</b> SENA, 2025.
     .bg_img_2.mb-3
       SlyderA(tipo="b").tarjeta.tarjeta--blanca.p-5
         .row.justify-content-center.align-items-center
@@ -119,7 +120,7 @@
               img(src='@/assets/curso/temas/tema_3/img_7.png', class="img-fluid")
         .row.justify-content-center.align-items-center
           .col-12.col-lg-4.order-2.order-lg-1.mb-0
-            h5 Monitoreo en tiempo Real
+            h5 Monitoreo en tiempo real
             p.mb-0 Incorpora tecnologías que permiten el seguimiento continuo y actualizado del estado del tránsito, condiciones viales y desempeño de los vehículos. Ejemplos: rastreo <I>GPS</I> en flotas, uso de drones para supervisión aérea, semáforos adaptativos inteligentes.
           .col-12.col-lg-7.order-1.order-lg-2.mb-lg-0.mb-3
             figure
@@ -198,7 +199,7 @@
             p.mb-0 <B>Indicadores:</B> volumen de tráfico (vehículos/hora), densidad vehicular, velocidad promedio.
             p.mb-0 <B>Herramientas:</B> sensores inductivos, aforos automáticos, cámaras de conteo.
           div(titulo="Tiempo de viaje y retraso")
-            p.mb-0Mide la eficiencia del tránsito en función del tiempo invertido por los usuarios.
+            p.mb-0 Mide la eficiencia del tránsito en función del tiempo invertido por los usuarios.
             p.mb-0 <B>Indicadores:</B> tiempo medio de desplazamiento, tiempo de detención en intersecciones, nivel de congestión.
             p.mb-0 <B>Herramientas:</B> <I>GPS, software</I> de gestión de flotas, aplicaciones móviles.
           div(titulo="Índices de seguridad vial")
@@ -210,7 +211,7 @@
             p.mb-0 <B>Indicadores:</B> índice de condición del pavimento (<I>PCI</I>), presencia de baches, señalización deficiente.
             p.mb-0 <B>Herramientas:</B> inspección por drones, escáner láser, sensores en el pavimento.
           div(titulo="Cumplimiento normativo")
-            p.mb-0 verifique la adherencia de los usuarios a las normas de tránsito y los sistemas automatizados de control.
+            p.mb-0 Verifique la adherencia de los usuarios a las normas de tránsito y los sistemas automatizados de control.
             p.mb-0 <B>Indicadores:</B> excesos de velocidad detectados, evasión de semáforos, cumplimiento de rutas.
             p.mb-0 <B>Herramientas:</B> foto multas, radares, cámaras de cruce, sistemas <I>OCR</I> (reconocimiento de matrículas).
       .col-9.col-lg-3.order-1.order-lg-2.mb-3(data-aos="flip-left")
@@ -295,7 +296,11 @@
         .tarjeta--color-primario-10.h-100 
           .tarjeta--14
           .tarjeta--slider__title.mb-3.text-center.fw-bold Drones y vehículos autónomos de inspección
-          .tarjeta--slider__content.text-center Uso: evaluación técnica de infraestructura, detección de deterioros, supervisión aérea en zonas de difícil acceso.<br><I>Software</I> de gestión del tráfico<br>Incluye: sistemas <I>ITS</I>, plataformas <I>SCADA</I> de tránsito, paneles de datos y tableros analíticos.
+          .tarjeta--slider__content.text-center Uso: evaluación técnica de infraestructura, detección de deterioros, supervisión aérea en zonas de difícil acceso.<br>
+        .tarjeta--color-primario-10.h-100 
+          .tarjeta--14
+          .tarjeta--slider__title.mb-3.text-center.fw-bold <I>Software</I> de gestión del tráfico
+          .tarjeta--slider__content.text-center Incluye: sistemas <I>ITS</I>, plataformas <I>SCADA</I> de tránsito, paneles de datos y tableros analíticos.
         .tarjeta--color-primario-10.h-100 
           .tarjeta--15
           .tarjeta--slider__title.mb-3.text-center.fw-bold Aplicaciones móviles y plataformas colaborativas
