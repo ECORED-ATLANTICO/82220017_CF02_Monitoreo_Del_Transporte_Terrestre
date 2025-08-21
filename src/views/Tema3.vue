@@ -102,33 +102,33 @@
         p.mb-0 Los sistemas de monitoreo vial pueden clasificarse según su finalidad operativa, la tecnología aplicada o el nivel de intervención en la gestión del tránsito. Esta categorización permite una mejor planificación de la infraestructura tecnológica y la aplicación de políticas públicas eficientes. Se identifican principalmente los siguientes tipos:
     
     .bg_img_2.mb-3
-      SlyderA(tipo="b").tarjeta.tarjeta--blanca.p-4
+      SlyderA(tipo="b").tarjeta.tarjeta--blanca.p-5
         .row.justify-content-center.align-items-center
           .col-12.col-lg-4.order-2.order-lg-1.mb-0
             h5 Monitoreo preventivo
             p.mb-0 Es el conjunto de mecanismos orientados a predecir y evitar incidentes o fallas en la vía, anticipándose a condiciones de riesgo. Ejemplos: radares para control de velocidad, alertas meteorológicas automáticas, sensores estructurales en puentes y carreteras.
-          .col-12.col-lg-6.order-1.order-lg-2.mb-lg-0.mb-3
+          .col-12.col-lg-7.order-1.order-lg-2.mb-lg-0.mb-3
             figure
-              img(src='@/assets/curso/temas/tema_3/img_6.png', class="img-fluid")
+              img(src='@/assets/curso/temas/tema_3/img_6.png')
         .row.justify-content-center.align-items-center
           .col-12.col-lg-4.order-2.order-lg-1.mb-0
             h5 Monitoreo reactivo
             p.mb-0 Se centra en la detección y gestión inmediata de eventos ya ocurridos, como accidentes, obstrucciones o situaciones climáticas adversas. Ejemplos: cámaras de videovigilancia, sensores de impacto, sistemas de reporte automático a centros de control.
-          .col-12.col-lg-6.order-1.order-lg-2.mb-lg-0.mb-3
+          .col-12.col-lg-7.order-1.order-lg-2.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/tema_3/img_7.png', class="img-fluid")
         .row.justify-content-center.align-items-center
           .col-12.col-lg-4.order-2.order-lg-1.mb-0
             h5 Monitoreo en tiempo Real
             p.mb-0 Incorpora tecnologías que permiten el seguimiento continuo y actualizado del estado del tránsito, condiciones viales y desempeño de los vehículos. Ejemplos: rastreo <I>GPS</I> en flotas, uso de drones para supervisión aérea, semáforos adaptativos inteligentes.
-          .col-12.col-lg-6.order-1.order-lg-2.mb-lg-0.mb-3
+          .col-12.col-lg-7.order-1.order-lg-2.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/tema_3/img_8.png', class="img-fluid")
         .row.justify-content-center.align-items-center
           .col-12.col-lg-4.order-2.order-lg-1.mb-0
             h5 Monitoreo histórico o analítico
             p.mb-0 involucra el análisis de datos recolectados a lo largo del tiempo, lo que facilita la toma de decisiones estratégicas, planificación vial y mejora continua. Ejemplos: modelos de flujo vehicular, estudios de comportamiento del conductor, auditorías técnicas de seguridad vial.
-          .col-12.col-lg-6.order-1.order-lg-2.mb-lg-0.mb-3
+          .col-12.col-lg-7.order-1.order-lg-2.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/tema_3/img_9.png', class="img-fluid")
 
@@ -140,7 +140,7 @@
 
     p.mb-5 Las políticas de monitoreo vial constituyen un marco normativo y estratégico que regula, orienta y facilita la implementación efectiva de los sistemas de monitoreo dentro de las redes de transporte. Estas políticas buscan garantizar la sostenibilidad, eficiencia y seguridad del sistema vial:
     
-    TabsA.mb-0.tarjeta-tabs-a.color-primario-10
+    TabsA.mb-0.tarjeta-tabs-a.color-secundario-5
       .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Política de seguridad vial")
         .row.justify-content-center.align-items-center.mb-0
           .col-12.col-lg-7.order-2.order-lg-1.mb-0
@@ -151,7 +151,7 @@
       .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Políticas de gestión inteligente del tráfico")
         .row.justify-content-center.align-items-center.mb-0
           .col-12.col-lg-7.order-2.order-lg-1.mb-0
-            p.mb-0 Fomentan el uso de tecnologías ITS (Sistemas Inteligentes de Transporte) para lograr una gestión dinámica y eficiente del tránsito urbano e interurbano. Ejemplos: Sincronización semafórica, carriles reversibles, control de accesos en zonas de alta congestión.
+            p.mb-0 Fomentan el uso de tecnologías <i>ITS</i> (Sistemas Inteligentes de Transporte) para lograr una gestión dinámica y eficiente del tránsito urbano e interurbano. Ejemplos: Sincronización semafórica, carriles reversibles, control de accesos en zonas de alta congestión.
           .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3.d-flex.justify-content-center.align-items-center
             figure.text-center.m-0
               img(src='@/assets/curso/temas/tema_3/img_11.png', class="img-fluid")
@@ -190,7 +190,7 @@
         .bloque-texto-g__texto.p-4
           p.mb-0 Los criterios de medición son parámetros técnicos y género que agrupa los parámetros técnicos y cuantificables que permiten evaluar el desempeño del sistema de monitoreo vial, su impacto sobre la movilidad y la seguridad. Estos criterios se agrupan generalmente en clave de cinco dimensiones:
 
-    .row.justify-content-center.align-items-center.mb-0
+    .row.justify-content-center.align-items-stard.mb-0
       .col-12.col-lg-9.order-2.order-lg-1.mb-3
         AcordionA(tipo="b"  clase-tarjeta="tarjeta tarjeta--color-secundario-10")
           div(titulo="Flujo vehicular")

@@ -34,7 +34,7 @@
 
     .bg_img_3.mb-3
 
-      .tarjeta.tarjeta--gris.p-4
+      .tarjeta.tarjeta--gris.p-5
         LineaTiempoC.color-acento-contenido(text-center)
           .row.justify-content-center.align-items-center(titulo="Planes de monitoreo operacional")
             .col-12.col-lg-6.order-2.order-lg-1
@@ -83,10 +83,10 @@
     .mb-3
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-8.col-lg-3.mb-lg-0.mb-3
+      .col-8.col-lg-4.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/temas/tema_4/img_7.png', class="img-fluid")
-      .col-12.col-lg-9
+      .col-12.col-lg-8
         .row.justify-content-center.align-items-center.mb-3
           .col-lg-1.d-lg-block.d-none(data-aos="zoom-in-right")
             figure
@@ -166,6 +166,9 @@
               .row(titulo="Implementación piloto y ajustes")
                 .col-md-12.mb-4.mb-md-0
                   p Antes de una implementación a gran escala, es recomendable realizar una fase piloto para probar el plan, identificar posibles fallas o mejoras y realizar los ajustes necesarios.
+              .row(titulo="Implementación completa y seguimiento continuo ")
+                .col-md-12.mb-4.mb-md-0
+                  p Lanzar el plan en toda su extensión y mantener una revisión y actualización periódica para asegurar su relevancia y efectividad a lo largo del tiempo.
 </template>
 
 <script>

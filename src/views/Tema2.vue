@@ -23,26 +23,26 @@
     p.mb-5 Se define como la capacidad de los sistemas de transporte para satisfacer las necesidades actuales de movimiento de personas y bienes, sin comprometer la capacidad de las generaciones futuras para satisfacer las suyas propias. Este concepto se cimienta en el equilibrio de tres dimensiones interconectadas, conocidas como la triple cuenta de resultados o <I>Triple Bottom Line:</I>
     
     .bg_img_2.mb-3
-      SlyderA(tipo="b").tarjeta.tarjeta--blanca.p-4
+      SlyderA(tipo="b").tarjeta.tarjeta--blanca.p-5
         .row.justify-content-center.align-items-center
           .col-12.col-lg-4.order-2.order-lg-1.mb-0
             h5 Dimensión ambiental
             p.mb-0 Se busca reducir el impacto ambiental del transporte mediante la disminución de emisiones contaminantes, gestión adecuada de residuos operativos y un menor uso de combustibles fósiles y recursos no renovables, promoviendo sostenibilidad.
-          .col-12.col-lg-6.order-1.order-lg-2.mb-lg-0.mb-3
+          .col-12.col-lg-8.order-1.order-lg-2.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/tema_2/img_2.png', class="img-fluid")
         .row.justify-content-center.align-items-center
           .col-12.col-lg-4.order-2.order-lg-1.mb-0
             h5 Dimensión social
             p.mb-0 Busca asegurar acceso equitativo al transporte, fomentar la seguridad vial, disminuir la congestión urbana que afecta la calidad de vida y optimizar las condiciones laborales del personal del sector transporte.
-          .col-12.col-lg-6.order-1.order-lg-2.mb-lg-0.mb-3
+          .col-12.col-lg-8.order-1.order-lg-2.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/tema_2/img_3.png', class="img-fluid")
         .row.justify-content-center.align-items-center
           .col-12.col-lg-4.order-2.order-lg-1.mb-0
             h5 Dimensión económica
             p.mb-0 Garantiza soluciones de movilidad sostenibles mediante costos operativos optimizados, eficiencia económica, inversión en tecnologías limpias con retorno y apoyo al desarrollo económico local y regional, asegurando viabilidad financiera a largo plazo.
-          .col-12.col-lg-6.order-1.order-lg-2.mb-lg-0.mb-3
+          .col-12.col-lg-8.order-1.order-lg-2.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/tema_2/img_4.png', class="img-fluid")
 

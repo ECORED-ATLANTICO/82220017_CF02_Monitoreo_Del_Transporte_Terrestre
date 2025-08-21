@@ -23,7 +23,7 @@
           figure.p-0
             img(src="@/assets/curso/temas/tema_1/img_2.png", class="img-fluid").p-0
         .col-12.col-lg-7.p-3
-          p.mb-0 La movilidad inteligente busca transformar la forma en que las personas y las mercancías se desplazan, integrando de manera eficiente tecnologías avanzadas, datos en tiempo real e infraestructuras conectadas. Su esencia radica en el uso de sistemas inteligentes de transporte (ITS), la digitalización y el análisis de grandes volúmenes de datos para optimizar la fluidez del tráfico, mejorar la seguridad vial, reducir la congestión y minimizar el impacto ambiental. No se trata solo de tecnología por la tecnología, sino de cómo la información y la conectividad pueden hacer que los sistemas de transporte sean más eficientes, seguros, sostenibles y centrados en el usuario.
+          p.mb-0 La movilidad inteligente busca transformar la forma en que las personas y las mercancías se desplazan, integrando de manera eficiente tecnologías avanzadas, datos en tiempo real e infraestructuras conectadas. Su esencia radica en el uso de sistemas inteligentes de transporte <i>(ITS)</i>, la digitalización y el análisis de grandes volúmenes de datos para optimizar la fluidez del tráfico, mejorar la seguridad vial, reducir la congestión y minimizar el impacto ambiental. No se trata solo de tecnología por la tecnología, sino de cómo la información y la conectividad pueden hacer que los sistemas de transporte sean más eficientes, seguros, sostenibles y centrados en el usuario.
 
     .bg_img_1.mb-3
 
@@ -38,8 +38,7 @@
           figure
             img(src='@/assets/curso/temas/tema_1/img_3.png', class="img-fluid") 
         .col-12.col-lg-11(data-aos="zoom-in-right")
-          p.mb-0 La movilidad inteligente busca transformar la forma en que las personas y las mercancías se desplazan, integrando de manera eficiente tecnologías avanzadas, datos en tiempo real e infraestructuras conectadas. Su esencia radica en el uso de sistemas inteligentes de transporte (ITS), la digitalización y el análisis de grandes volúmenes de datos para optimizar la fluidez del tráfico, mejorar la seguridad vial, reducir la congestión y minimizar el impacto ambiental. No se trata solo de tecnología por la tecnología, sino de cómo la información y la conectividad pueden hacer que los sistemas de transporte sean más eficientes, seguros, sostenibles y centrados en el usuario.
-
+          p.mb-0 Es vital para el sector logístico, ya que permite una planificación y ejecución del transporte más precisa, adaptable y proactiva. Para los aprendices, comprender la movilidad inteligente significa poder implementar y gestionar sistemas que se traducen en beneficios tangibles como: rutas optimizadas dinámicamente que reducen el consumo de combustible y los tiempos de viaje; estimaciones de tiempos de entrega más exacta, una gestión más eficiente de la flota vehicular y de los conductores, y una mayor capacidad para responder a incidentes en tiempo real. Para los usuarios finales, esto se traduce en una experiencia de viaje o de recepción de mercancías más segura, rápida y predecible.
       separador
 
       #t_1_3.titulo-segundo.color-acento-contenido
