@@ -215,12 +215,12 @@
             .tarjeta--slider__content.text-center ahorros significativos por la recuperación de vehículos o la disuasión de actividades ilegales.
     
     .titulo-sexto.color-acento-contenido
-      h5 Figura 4.
+      h5 Figura 3.
       |    Modelo dispositivo de seguimiento
     figure(data-aos="zoom-in-right")
-      img(src='@/assets/curso/temas/tema_7/img_28.svg', class="img-fluid d-none d-lg-block")
-      img(src='@/assets/curso/temas/tema_7/img_29.svg', class="img-fluid d-block d-lg-none mb-3")
-      figcaption <b>Fuente:</b> SENA, 2025.
+      img(src='@/assets/curso/temas/tema_7/img_28.svg', class="img-fluid d-none d-lg-block" alt="La figura 3 ilustra un modelo dispositivo de seguimiento con sus diferentes componentes a saber: desempeño operacional y de flota, comportamiento del conductor, seguridad y prevención de riesgos y ahorro de combustible")
+      img(src='@/assets/curso/temas/tema_7/img_29.svg', class="img-fluid d-block d-lg-none mb-3" alt="La figura 3 ilustra un modelo dispositivo de seguimiento con sus diferentes componentes a saber: desempeño operacional y de flota, comportamiento del conductor, seguridad y prevención de riesgos y ahorro de combustible")
+      figcaption <b>Fuente:</b> SENA, 2025. 
 
 </template>
 

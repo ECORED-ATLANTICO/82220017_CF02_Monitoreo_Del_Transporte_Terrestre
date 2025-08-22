@@ -271,7 +271,8 @@ export default {
       referencia:
         'Departamento Nacional de Planeación. (2017). <em>Manual de innovación en movilidad y transporte.</em> DNP. ',
       tipo: 'Manual PDF',
-      link: 'downloads/Manual_innovacion_Movilidad_y_Transporte.pdf',
+      link:
+        'https://portalterritorial.dnp.gov.co/KitOT/Content/uploads/Manual%20innovacion%20Movilidad%20y%20Transporte%20PDF.pdf',
     },
   ],
   glosario: [
@@ -450,12 +451,12 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Yezid Arturo Choperena Guerrero',
+          nombre: 'Yasmín Maldonado Escobar',
           cargo: 'Experto temático',
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
-          nombre: 'Heydy Cristina González García',
+          nombre: 'Jair Coll Gallardo',
           cargo: 'Evaluadora instruccional',
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },

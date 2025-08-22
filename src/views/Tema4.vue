@@ -52,9 +52,9 @@
               figure
                 img(src='@/assets/curso/temas/tema_4/img_3.png', class="img-fluid")
 
-          .row.justify-content-center.align-items-center(titulo="Planes de monitoreo Ambiental")
+          .row.justify-content-center.align-items-center(titulo="Planes de monitoreo ambiental")
             .col-12.col-lg-6.order-2.order-lg-1
-              h5 Planes de monitoreo Ambiental
+              h5 Planes de monitoreo ambiental
               p.mb-0 Su objetivo es medir y reducir el impacto ecológico del transporte. Recopilan datos sobre emisiones de gases contaminantes, consumo de combustible, niveles de ruido y la eficiencia energética de la flota. Son esenciales para la implementación de estrategias de logística verde.
             .col-12.col-lg-5.order-1.order-lg-2.mb-3.mb-lg-0
               figure
@@ -96,7 +96,7 @@
             p.mb-0 <B>Alcance:</B> establecer qué aspectos se monitorearán (ej. toda la flota, un tramo vial específico, solo vehículos de carga pesada).
         .tarjeta.color-acento-contenido-5.p-4.rounded-0.mb-3(data-aos='zoom-in-right')
           p.mb-3 <B>Indicadores clave de desempeño (<I>KPIs</I>):</B> las métricas específicas que se utilizarán para medir el progreso hacia los objetivos (ej. <I>OTD</I>, consumo de combustible por km, número de incidentes, velocidad promedio).
-          p.mb-0 <B>Fuentes de datos:</B> dentificar de dónde provendrá la información (ej. <I>GPS</I>, sensores <I>IoT</I>, tacógrafos digitales, cámaras de tráfico, reportes de conductores, datos de telemática vehicular).
+          p.mb-0 <B>Fuentes de datos:</B> identificar de dónde provendrá la información (ej. <I>GPS</I>, sensores <I>IoT</I>, tacógrafos digitales, cámaras de tráfico, reportes de conductores, datos de telemática vehicular).
         p.mb-0(data-aos='zoom-in-right') <B>Tecnologías y herramientas:</B> detallar los sistemas de software (<I>TMS, FMS, BI</I>) y hardware (dispositivos de seguimiento, sensores) que se emplearán para la recolección, procesamiento y análisis de datos.
 
     .custom-slider.p-5.p-sm-3(data-aos="zoom-in-right")
@@ -104,23 +104,23 @@
         .tarjeta--color-primario-10.h-100
           .tarjeta--16
           .tarjeta--slider__title.mb-3.text-center.fw-bold Metodología de recolección y procesamiento de datos
-          .tarjeta--slider__content.text-center describir cómo se obtendrán, limpiarán, validarán, almacenarán y procesarán los datos para asegurar su calidad y utilidad.
+          .tarjeta--slider__content.text-center Describir cómo se obtendrán, limpiarán, validarán, almacenarán y procesarán los datos para asegurar su calidad y utilidad.
         .tarjeta--color-primario-10.h-100
           .tarjeta--17
           .tarjeta--slider__title.mb-3.text-center.fw-bold Frecuencia del monitoreo y <I>reporting</I>
-          .tarjeta--slider__content.text-center establecer la periodicidad con la que se recopilarán los datos y se generarán los informes de seguimiento (ej. cada hora, diario, semanal, mensual).
+          .tarjeta--slider__content.text-center Establecer la periodicidad con la que se recopilarán los datos y se generarán los informes de seguimiento (ej. cada hora, diario, semanal, mensual).
         .tarjeta--color-primario-10.h-100
           .tarjeta--18
           .tarjeta--slider__title.mb-3.text-center.fw-bold Roles y responsabilidades
-          .tarjeta--slider__content.text-center asignar claramente quiénes son los encargados de cada tarea dentro del proceso de monitoreo, desde la recolección hasta el análisis y la difusión de informes.
+          .tarjeta--slider__content.text-center Asignar claramente quiénes son los encargados de cada tarea dentro del proceso de monitoreo, desde la recolección hasta el análisis y la difusión de informes.
         .tarjeta--color-primario-10.h-100 
           .tarjeta--19
           .tarjeta--slider__title.mb-3.text-center.fw-bold Presupuesto y recursos
-          .tarjeta--slider__content.text-center detallar los recursos financieros, tecnológicos y humanos necesarios para la implementación y el mantenimiento del plan.
+          .tarjeta--slider__content.text-center Detallar los recursos financieros, tecnológicos y humanos necesarios para la implementación y el mantenimiento del plan.
         .tarjeta--color-primario-10.h-100 
           .tarjeta--20
           .tarjeta--slider__title.mb-3.text-center.fw-bold Mecanismos de retroalimentación y mejora continua
-          .tarjeta--slider__content.text-center cómo se utilizarán los resultados del monitoreo para la toma de decisiones, la implementación de acciones correctivas y la mejora continua del propio plan de monitoreo.
+          .tarjeta--slider__content.text-center Cómo se utilizarán los resultados del monitoreo para la toma de decisiones, la implementación de acciones correctivas y la mejora continua del propio plan de monitoreo.
 
     .bg_img_4.mb-3
 
@@ -144,7 +144,7 @@
                   p Realizar un análisis exhaustivo de la situación actual, identificando los problemas, desafíos y oportunidades en la operación del transporte o en la gestión vial. Definir qué información es crucial para mejorar el desempeño.              
               .row(titulo="Establecimiento de objetivos y <i>KPIs</i>")
                 .col-md-12.mb-4.mb-md-0
-                  p con base en el diagnóstico, formular objetivos SMART (Específicos, Medibles, Alcanzables, Relevantes, con Plazo Definido) y seleccionar los KPIs más adecuados para medir el progreso hacia esos objetivos.          
+                  p con base en el diagnóstico, formular objetivos <i>SMART</i> (Específicos, Medibles, Alcanzables, Relevantes, con Plazo Definido) y seleccionar los KPIs más adecuados para medir el progreso hacia esos objetivos.          
               .row(titulo="Diseño de la metodología de recolección de datos")
                 .col-md-12.mb-4.mb-md-0
                   p Determinar las fuentes de datos (ej. sensores, <i>GPS</i>, manuales), los métodos de captura (automática, manual) y los protocolos de muestreo si aplica. Se define cómo asegurar la calidad y consistencia de los datos.              
@@ -162,7 +162,7 @@
                   p Planificar las fases de implementación, los hitos clave y la asignación de recursos financieros.
               .row(titulo="Validación y aprobación")
                 .col-md-12.mb-4.mb-md-0
-                  p Presentar el plan a las partes interesadas (gerencia, equipos operativos, áreas de TI) para su revisión, ajuste y aprobación formal.
+                  p Presentar el plan a las partes interesadas (gerencia, equipos operativos, áreas de <i>TI</i>) para su revisión, ajuste y aprobación formal.
               .row(titulo="Implementación piloto y ajustes")
                 .col-md-12.mb-4.mb-md-0
                   p Antes de una implementación a gran escala, es recomendable realizar una fase piloto para probar el plan, identificar posibles fallas o mejoras y realizar los ajustes necesarios.

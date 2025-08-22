@@ -64,8 +64,6 @@
     .row.justify-content-center.align-items-start.mb-5
       .col-12.col-lg-8.order-2.order-lg-1.mb-3(data-aos="zoom-in-right")
         AcordionA(tipo="b"  clase-tarjeta="tarjeta tarjeta--color-secundario-10")
-          div(titulo="Título del grafico")
-            p.mb-0  Tipos de dispositivos de seguimiento
           div(titulo="Dispositivo <I>GPS</I> (Sistema de Posicionamiento Global)")
             p.mb-3 Localizan en tiempo real la posición de vehículos en movimiento.
             p.mb-0  Aplicaciones: rastreo de rutas, control de tiempos de viaje, georreferenciación de incidentes, planificación logística.
@@ -75,6 +73,7 @@
           div(titulo="Sensores de velocidad y flujo vehicular")
             p.mb-3 Detectan la velocidad, volumen y tipo de vehículos que circulan por un punto determinado.
             p.mb-0  Aplicaciones: control de velocidad, análisis de congestión, activación de alertas.
+          
       .col-9.col-lg-4.order-1.order-lg-2.mb-3(data-aos="flip-left")
         figure
           img(src='@/assets/curso/temas/tema_5/img_11.png', class="img-fluid")
@@ -121,13 +120,13 @@
     .mb-3
 
     .titulo-sexto.color-acento-contenido
-      h5 Figura 3.
+      h5 Figura 2.
       |    Modelo dispositivo de seguimiento
     figure(data-aos="zoom-in-right")
-      img(src='@/assets/curso/temas/tema_5/img_13.png', class="img-fluid d-none d-lg-block")
-      img(src='@/assets/curso/temas/tema_5/img_14.png', class="img-fluid d-block d-lg-none mb-3")
-      img(src='@/assets/curso/temas/tema_5/img_15.png', class="img-fluid d-block d-lg-none mb-3")
-      img(src='@/assets/curso/temas/tema_5/img_16.png', class="img-fluid d-block d-lg-none mb-3")
+      img(src='@/assets/curso/temas/tema_5/img_13.png', class="img-fluid d-none d-lg-block" alt="En la figura 2 se ilustra un modelo de dispositivos de seguimiento, a saber: dispositivos GPS estándar, GPS avanzados con sensores integrados, tacógrafos digitales, cámaras embarcadas (cámaras 360°), sensores telemáticos y diagnóstico, sistemas de RFID, dispositivos IoT y plataformas integradas, drones para monitoreo vial y sensores de pesaje y TPMS")
+      img(src='@/assets/curso/temas/tema_5/img_14.png', class="img-fluid d-block d-lg-none mb-3" alt="En la figura 2 se ilustra un modelo de dispositivos de seguimiento, a saber: dispositivos GPS estándar, GPS avanzados con sensores integrados, tacógrafos digitales, cámaras embarcadas (cámaras 360°), sensores telemáticos y diagnóstico, sistemas de RFID, dispositivos IoT y plataformas integradas, drones para monitoreo vial y sensores de pesaje y TPMS")
+      img(src='@/assets/curso/temas/tema_5/img_15.png', class="img-fluid d-block d-lg-none mb-3" alt="En la figura 2 se ilustra un modelo de dispositivos de seguimiento, a saber: dispositivos GPS estándar, GPS avanzados con sensores integrados, tacógrafos digitales, cámaras embarcadas (cámaras 360°), sensores telemáticos y diagnóstico, sistemas de RFID, dispositivos IoT y plataformas integradas, drones para monitoreo vial y sensores de pesaje y TPMS")
+      img(src='@/assets/curso/temas/tema_5/img_16.png', class="img-fluid d-block d-lg-none mb-3" alt="En la figura 2 se ilustra un modelo de dispositivos de seguimiento, a saber: dispositivos GPS estándar, GPS avanzados con sensores integrados, tacógrafos digitales, cámaras embarcadas (cámaras 360°), sensores telemáticos y diagnóstico, sistemas de RFID, dispositivos IoT y plataformas integradas, drones para monitoreo vial y sensores de pesaje y TPMS")
       figcaption <b>Fuente:</b> SENA, 2025.
     
     .bg_img_4.mb-3
