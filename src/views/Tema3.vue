@@ -141,7 +141,7 @@
 
     p.mb-5 Las políticas de monitoreo vial constituyen un marco normativo y estratégico que regula, orienta y facilita la implementación efectiva de los sistemas de monitoreo dentro de las redes de transporte. Estas políticas buscan garantizar la sostenibilidad, eficiencia y seguridad del sistema vial:
     
-    TabsA.mb-0.tarjeta-tabs-a.color-secundario-5
+    TabsA.mb-0.tarjeta-tabs-a.color-secundario
       .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Política de seguridad vial")
         .row.justify-content-center.align-items-center.mb-0
           .col-12.col-lg-7.order-2.order-lg-1.mb-0
