@@ -83,6 +83,37 @@
           img(src='@/assets/curso/temas/tema_2/img_6.png', class="img-fluid")
       .col-12.col-lg-8.mb-0
         TabsA.mb-0.tarjeta-tabs-a.color-primario-10
+          .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="")
+            .row.justify-content-center.align-items-center.mb-0
+              .col-12
+                p.mb-0 
+          .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="")
+            .row.justify-content-center.align-items-center.mb-0
+              .col-12
+                p.mb-0 
+          .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="")
+            .row.justify-content-center.align-items-center.mb-0
+              .col-12
+                p.mb-0 
+          .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="")
+            .row.justify-content-center.align-items-center.mb-0
+              .col-12
+                p.mb-0 
+          .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="")
+            .row.justify-content-center.align-items-center.mb-0
+              .col-12
+                p.mb-0  
+          .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="")
+            .row.justify-content-center.align-items-center.mb-0
+              .col-12
+                p.mb-0 
+    
+    .row.justify-content-center.align-items-center.mb-3
+      .col-12.col-lg-4.mb-lg-0.mb-3(data-aos="zoom-in-right")
+        figure(data-aos="zoom-out-up")
+          img(src='@/assets/curso/temas/tema_2/img_6.png', class="img-fluid")
+      .col-12.col-lg-8.mb-0(data-aos="zoom-in-right")
+        TabsA.mb-0.tarjeta-tabs-a.color-primario-10
           .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Electrificación masiva de flotas")
             .row.justify-content-center.align-items-center.mb-0
               .col-12
@@ -99,14 +130,17 @@
             .row.justify-content-center.align-items-center.mb-0
               .col-12
                 p.mb-0 El auge de las bicicletas eléctricas, patinetes y otros vehículos ligeros para trayectos cortos está redefiniendo los paisajes urbanos. La participación en el diseño de ciclovías, mantenimiento de estos vehículos y sistemas de alquiler será crucial.
+              .col-12.col-lg-7.order-1.order-lg-2.mb-lg-0.mb-3.d-flex.justify-content-center.align-items-center
           .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Optimización y logística verde")
             .row.justify-content-center.align-items-center.mb-0
-              .col-12
-                p.mb-0 La aplicación de tecnologías como la inteligencia artificial, el <I>Big Data</I> y el Internet de las Cosas (<I>IoT</I>) permite optimizar rutas, gestionar flotas de manera más eficiente y reducir el consumo de combustible y las emisiones en el transporte de mercancías. 
+              .col-12.col-lg-5.order-2.order-lg-1.mb-0
+                p.mb-0 La aplicación de tecnologías como la inteligencia artificial, el <I>Big Data</I> y el Internet de las Cosas (<I>IoT</I>) permite optimizar rutas, gestionar flotas de manera más eficiente y reducir el consumo de combustible y las emisiones en el transporte de mercancías.
+              .col-12.col-lg-7.order-1.order-lg-2.mb-lg-0.mb-3.d-flex.justify-content-center.align-items-center
           .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Desarrollo de infraestructura inteligente")
             .row.justify-content-center.align-items-center.mb-0
-              .col-12
+              .col-12.col-lg-5.order-2.order-lg-1.mb-0
                 p.mb-0 Ciudades y vías inteligentes que integran sensores, sistemas de gestión de tráfico adaptativos y puntos de carga para vehículos eléctricos, son el futuro.
+              .col-12.col-lg-7.order-1.order-lg-2.mb-lg-0.mb-3.d-flex.justify-content-center.align-items-center
 </template>
 
 <script>
