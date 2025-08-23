@@ -139,35 +139,45 @@
           .container.tarjeta.tarjeta--blanca.p-4.p-md-0
           .tarjeta.tarjeta--gris.p-4
             PasosB.color-primario
-              .row(titulo="Diagnostico")
+              .row(titulo="")
                 .col-md-12.mb-4.mb-md-0
+                  h5 Diagnostico
                   p Realizar un análisis exhaustivo de la situación actual, identificando los problemas, desafíos y oportunidades en la operación del transporte o en la gestión vial. Definir qué información es crucial para mejorar el desempeño.              
-              .row(titulo="Establecimiento de objetivos y <i>KPIs</i>")
+              .row(titulo="")
                 .col-md-12.mb-4.mb-md-0
+                  h5 Establecimiento de objetivos y <i>KPIs</i>
                   p con base en el diagnóstico, formular objetivos <i>SMART</i> (Específicos, Medibles, Alcanzables, Relevantes, con Plazo Definido) y seleccionar los KPIs más adecuados para medir el progreso hacia esos objetivos.          
-              .row(titulo="Diseño de la metodología de recolección de datos")
+              .row(titulo="")
                 .col-md-12.mb-4.mb-md-0
+                  h5 Diseño de la metodología de recolección de datos
                   p Determinar las fuentes de datos (ej. sensores, <i>GPS</i>, manuales), los métodos de captura (automática, manual) y los protocolos de muestreo si aplica. Se define cómo asegurar la calidad y consistencia de los datos.              
-              .row(titulo="Selección de tecnologías y herramientas")
+              .row(titulo="")
                 .col-md-12.mb-4.mb-md-0
+                  h5 Selección de tecnologías y herramientas
                   p Elegir los sistemas de software (plataformas de telemetría, <i>software</i> de gestión de flotas, herramientas de <i>BI</i>) y los dispositivos de <i>hardware</i> (<i>trackers GPS</i>, sensores, <i>dashcams</i>) que se ajusten a las necesidades y al presupuesto.             
-              .row(titulo="Definición de roles, responsabilidades y capacitación")
+              .row(titulo="")
                 .col-md-12.mb-4.mb-md-0
+                  h5 Definición de roles, responsabilidades y capacitación
                   p Asignar claramente las funciones dentro del equipo de monitoreo y asegurar que el personal esté debidamente capacitado en el uso de las herramientas y en los procedimientos establecidos.
-              .row(titulo="Desarrollo del protocolo de análisis")
+              .row(titulo="")
                 .col-md-12.mb-4.mb-md-0
+                  h5 Desarrollo del protocolo de análisis
                   p diseñar cómo se analizarán los datos (análisis descriptivo, predictivo, prescriptivo) y qué formatos tendrán los informes (<i>dashboards</i> = reportes ejecutivos), incluyendo la frecuencia y los destinatarios.              
-              .row(titulo="Establecimiento de un cronograma detallado y presupuesto")
+              .row(titulo="")
                 .col-md-12.mb-4.mb-md-0
+                  h5 Establecimiento de un cronograma detallado y presupuesto
                   p Planificar las fases de implementación, los hitos clave y la asignación de recursos financieros.
-              .row(titulo="Validación y aprobación")
+              .row(titulo="")
                 .col-md-12.mb-4.mb-md-0
+                  h5 Validación y aprobación
                   p Presentar el plan a las partes interesadas (gerencia, equipos operativos, áreas de <i>TI</i>) para su revisión, ajuste y aprobación formal.
-              .row(titulo="Implementación piloto y ajustes")
+              .row(titulo="")
                 .col-md-12.mb-4.mb-md-0
+                  h5 Implementación piloto y ajustes
                   p Antes de una implementación a gran escala, es recomendable realizar una fase piloto para probar el plan, identificar posibles fallas o mejoras y realizar los ajustes necesarios.
-              .row(titulo="Implementación completa y seguimiento continuo ")
+              .row(titulo="")
                 .col-md-12.mb-4.mb-md-0
+                  h5 Implementación completa y seguimiento continuo 
                   p Lanzar el plan en toda su extensión y mantener una revisión y actualización periódica para asegurar su relevancia y efectividad a lo largo del tiempo.
 </template>
 

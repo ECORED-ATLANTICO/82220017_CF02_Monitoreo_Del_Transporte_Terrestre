@@ -81,10 +81,10 @@
         figure(data-aos="zoom-out-up")
           img(src='@/assets/curso/temas/tema_7/img_7.png', class="img-fluid")
       .col-12.col-lg-9.mb-0(data-aos="zoom-in-right")
-        TabsA.mb-0.tarjeta-tabs-a.color-primario-10
+        TabsA.mb-0.tarjeta-tabs-a.color-secundario.tres
           .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Porcentaje de viajes completados a tiempo")
             .row.justify-content-center.align-items-center.mb-0
-              .col-12.col-lg-5.order-2.order-lg-1.mb-0
+              .col-12.col-lg-5.order-2.order-lg-1.mb-0.d-flex.justify-content-center.align-items-cente
                 p.mb-0 se detalla el porcentaje de rutas que se ejecutaron dentro de los plazos establecidos, identificando desviaciones significativas.
               .col-12.col-lg-7.order-1.order-lg-2.mb-lg-0.mb-3.d-flex.justify-content-center.align-items-center
                 figure.text-center.m-0

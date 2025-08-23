@@ -109,7 +109,7 @@
                 .col.mb-3.mb-sm-0
                   h4.mb-1 Para ampliar información de tecnología usadas en sector, te invitamos a ver el siguiente video:
                 .col-sm-auto
-                  a.boton.color-acento-contenido(href="https://www.youtube.com/watch?v=K_KgBscfdDE" target="_blank")
+                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=K_KgBscfdDE" target="_blank")
                     span Ver video
                     i.fab.fa-youtube.me-2
 

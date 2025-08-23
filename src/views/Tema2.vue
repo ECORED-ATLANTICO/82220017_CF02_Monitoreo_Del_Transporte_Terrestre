@@ -83,7 +83,7 @@
         figure(data-aos="zoom-out-up")
           img(src='@/assets/curso/temas/tema_2/img_6.png', class="img-fluid")
       .col-12.col-lg-8.mb-0(data-aos="zoom-in-right")
-        TabsA.mb-0.tarjeta-tabs-a.color-primario-10
+        TabsA.mb-0.tarjeta-tabs-a.color-secundario.dos
           .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Electrificación masiva de flotas")
             .row.justify-content-center.align-items-center.mb-0
               .col-12
