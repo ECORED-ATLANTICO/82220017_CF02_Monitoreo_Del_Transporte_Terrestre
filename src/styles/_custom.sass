@@ -191,6 +191,21 @@ figcaption
       height: 100%
       background-image: url('../assets/curso/temas/tema_2/img_8.png') !important
       background-repeat: no-repeat
+  &_7
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: -300px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/temas/tema_4/img_20.png') !important
+      background-repeat: no-repeat
+  
 
 ///BG_color
 .bg-color-secundario

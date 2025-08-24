@@ -26,11 +26,44 @@
       .col-12.col-lg-8(data-aos="zoom-in-right")
         p.mb-0 Es una herramienta estratégica y operativa indispensable en la gestión moderna del transporte terrestre. No es simplemente un listado de tareas, sino un documento estructurado que establece el marco metodológico para la recolección sistemática, el análisis y el uso de datos relacionados con la infraestructura vial, el flujo de tráfico, las condiciones ambientales y el desempeño de las flotas y los conductores. Su objetivo primordial es asegurar que la información clave sea capturada de manera consistente, fiable y oportuna, sirviendo como base para evaluar el desempeño, identificar problemas, anticipar riesgos y fundamentar la toma de decisiones que permitan optimizar la movilidad y la seguridad vial. En esencia, es la hoja de ruta que transforma la información dispersa en conocimiento accionable.
 
-    separador
+    .bg_img_7.mb-3
+      separador
 
-    #t_4_2.titulo-segundo.color-acento-contenido
-      .h2(data-aos="fade-right") 4.2 Tipos
-    .mb-3
+      #t_4_2.titulo-segundo.color-acento-contenido
+        .h2(data-aos="fade-right") 4.2 Tipos
+      .mb-3
+
+      .row.justify-content-center.align-items-center.mb-5
+        .col-8.col-lg-3.mb-lg-5.mb-3(data-aos="zoom-in-right")
+          figure
+            img(src='@/assets/curso/temas/tema_4/img_19.png', class="img-fluid") 
+        .col-12.col-lg-9.mb-5(data-aos="zoom-in-right")
+          .row
+            .col-12.col-lg-12.mb-3
+              .tarjeta-numerada.color-primario.p-5.pb-3.pt-3
+                .tarjeta-numerada__numero
+                  .h2 1
+                p.mb-0 Planes de monitoreo de seguridad Vial <I>(PESV)</I> reducir accidentes, lesiones y muertes en las vías. Se basan en visión cero, monitorizando la accidentalidad y sus causas, evaluando medidas de seguridad en infraestructura, vehículos, comportamiento de los conductores, atención a víctimas y fortalecimiento institucional.
+            .col-12.col-lg-12.mb-3
+              .tarjeta-numerada.color-primario.p-5.pb-3.pt-3
+                .tarjeta-numerada__numero
+                  .h2 2
+                p.mb-0 Planes de monitoreo de tráfico y congestión optimizar el flujo vehicular, reducir la congestión y mejorar la eficiencia del sistema. Monitorean volúmenes de tráfico, velocidades, tiempos de viaje y patrones de circulación para identificar cuellos de botella y gestionar la demanda.
+            .col-12.col-lg-12.mb-3
+              .tarjeta-numerada.color-primario.p-5.pb-3.pt-3
+                .tarjeta-numerada__numero
+                  .h2 3
+                p.mb-0 Planes de monitoreo ambiental (Vial) evaluar y mitigar el impacto ambiental del tráfico. Incluyen el monitoreo de emisiones, ruido y calidad del aire para apoyar políticas de transporte sostenible y el uso de vehículos más limpios.
+            .col-12.col-lg-12.mb-3
+              .tarjeta-numerada.color-primario.p-5.pb-3.pt-3
+                .tarjeta-numerada__numero
+                  .h2 4
+                p.mb-0 Planes de monitoreo de infraestructura vial asegurar la buena conservación y funcionamiento de la infraestructura. Monitorean la condición del pavimento, puentes, túneles y señalización para programar mantenimientos y garantizar la durabilidad de la red vial..
+            .col-12.col-lg-12.mb-0
+              .tarjeta-numerada.color-primario.p-5.pb-3.pt-3
+                .tarjeta-numerada__numero
+                  .h2 5
+                p.mb-0 Planes de monitoreo de obras y contingencia vial gestionar el impacto de cierres o construcciones en el tráfico y la seguridad. Se activan durante obras o eventos especiales para monitorear desvíos y garantizar la fluidez y seguridad.
 
     .bg_img_3.mb-3
 
