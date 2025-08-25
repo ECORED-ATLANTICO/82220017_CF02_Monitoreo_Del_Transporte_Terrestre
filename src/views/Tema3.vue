@@ -299,7 +299,7 @@
           .tarjeta--slider__title.mb-3.text-center.fw-bold Drones y vehículos autónomos de inspección
           .tarjeta--slider__content.text-center Uso: evaluación técnica de infraestructura, detección de deterioros, supervisión aérea en zonas de difícil acceso.<br>
         .tarjeta--color-primario-10.h-100 
-          .tarjeta--14
+          .tarjeta--14_1
           .tarjeta--slider__title.mb-3.text-center.fw-bold <I>Software</I> de gestión del tráfico
           .tarjeta--slider__content.text-center Incluye: sistemas <I>ITS</I>, plataformas <I>SCADA</I> de tránsito, paneles de datos y tableros analíticos.
         .tarjeta--color-primario-10.h-100 
