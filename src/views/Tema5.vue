@@ -129,13 +129,13 @@
       img(src='@/assets/curso/temas/tema_5/img_16.png', class="img-fluid d-block d-lg-none mb-3" alt="En la figura 2 se ilustra un modelo de dispositivos de seguimiento, a saber: dispositivos GPS estándar, GPS avanzados con sensores integrados, tacógrafos digitales, cámaras embarcadas (cámaras 360°), sensores telemáticos y diagnóstico, sistemas de RFID, dispositivos IoT y plataformas integradas, drones para monitoreo vial y sensores de pesaje y TPMS")
       figcaption <b>Fuente:</b> SENA, 2025.
     
-    .bg_img_4.mb-3
-
+    <br><br><br>
+    .bg_img_8.mb-3
       separador
 
       #t_5_3.titulo-segundo.color-acento-contenido
         .h2(data-aos="fade-right") 5.3 Automatización de dispositivo de seguimiento
-      .mb-3
+      .mb-5
 
       .row.justify-content-center.align-items-center.mb-5
         .col-8.col-lg-3.mb-lg-0.mb-3

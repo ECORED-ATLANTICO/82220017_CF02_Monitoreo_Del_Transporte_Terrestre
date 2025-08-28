@@ -87,7 +87,7 @@
       .h2(data-aos="fade-right") 3.3 Tipos de monitoreo vial
     .mb-3
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-stard.mb-5
       .col-lg-1.d-lg-block.d-none(data-aos="zoom-in-right")
         figure
           img(src='@/assets/curso/temas/tema_3/img_31.png', class="img-fluid") 

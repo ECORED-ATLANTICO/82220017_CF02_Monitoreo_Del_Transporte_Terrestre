@@ -108,52 +108,53 @@
             .col-12.col-lg-5.order-1.order-lg-2.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema_4/img_6.png', class="img-fluid")
+    
+    .bg_img_8.mb-3
+      separador
 
-    separador
+      #t_4_3.titulo-segundo.color-acento-contenido
+        .h2(data-aos="fade-right") 4.3 Elementos
+      .mb-3
 
-    #t_4_3.titulo-segundo.color-acento-contenido
-      .h2(data-aos="fade-right") 4.3 Elementos
-    .mb-3
+      .row.justify-content-center.align-items-center.mb-4
+        .col-8.col-lg-4.mb-lg-0.mb-3
+          figure
+            img(src='@/assets/curso/temas/tema_4/img_7.png', class="img-fluid")
+        .col-12.col-lg-8
+          .row.justify-content-center.align-items-center.mb-3
+            .col-lg-1.d-lg-block.d-none(data-aos="zoom-in-right")
+              figure
+                img(src='@/assets/curso/temas/tema_4/img_8.png', class="img-fluid") 
+            .col-12.col-lg-11.mb-0(data-aos="zoom-in-right")
+              p.mb-3 <B>Objetivo:</B> definir específicamente qué se busca lograr con el monitoreo.
+              p.mb-0 <B>Alcance:</B> establecer qué aspectos se monitorearán (ej. toda la flota, un tramo vial específico, solo vehículos de carga pesada).
+          .tarjeta.color-acento-contenido-5.p-4.rounded-0.mb-3(data-aos='zoom-in-right')
+            p.mb-3 <B>Indicadores clave de desempeño (<I>KPIs</I>):</B> las métricas específicas que se utilizarán para medir el progreso hacia los objetivos (ej. <I>OTD</I>, consumo de combustible por km, número de incidentes, velocidad promedio).
+            p.mb-0 <B>Fuentes de datos:</B> identificar de dónde provendrá la información (ej. <I>GPS</I>, sensores <I>IoT</I>, tacógrafos digitales, cámaras de tráfico, reportes de conductores, datos de telemática vehicular).
+          p.mb-0(data-aos='zoom-in-right') <B>Tecnologías y herramientas:</B> detallar los sistemas de software (<I>TMS, FMS, BI</I>) y hardware (dispositivos de seguimiento, sensores) que se emplearán para la recolección, procesamiento y análisis de datos.
 
-    .row.justify-content-center.align-items-center.mb-4
-      .col-8.col-lg-4.mb-lg-0.mb-3
-        figure
-          img(src='@/assets/curso/temas/tema_4/img_7.png', class="img-fluid")
-      .col-12.col-lg-8
-        .row.justify-content-center.align-items-center.mb-3
-          .col-lg-1.d-lg-block.d-none(data-aos="zoom-in-right")
-            figure
-              img(src='@/assets/curso/temas/tema_4/img_8.png', class="img-fluid") 
-          .col-12.col-lg-11.mb-0(data-aos="zoom-in-right")
-            p.mb-3 <B>Objetivo:</B> definir específicamente qué se busca lograr con el monitoreo.
-            p.mb-0 <B>Alcance:</B> establecer qué aspectos se monitorearán (ej. toda la flota, un tramo vial específico, solo vehículos de carga pesada).
-        .tarjeta.color-acento-contenido-5.p-4.rounded-0.mb-3(data-aos='zoom-in-right')
-          p.mb-3 <B>Indicadores clave de desempeño (<I>KPIs</I>):</B> las métricas específicas que se utilizarán para medir el progreso hacia los objetivos (ej. <I>OTD</I>, consumo de combustible por km, número de incidentes, velocidad promedio).
-          p.mb-0 <B>Fuentes de datos:</B> identificar de dónde provendrá la información (ej. <I>GPS</I>, sensores <I>IoT</I>, tacógrafos digitales, cámaras de tráfico, reportes de conductores, datos de telemática vehicular).
-        p.mb-0(data-aos='zoom-in-right') <B>Tecnologías y herramientas:</B> detallar los sistemas de software (<I>TMS, FMS, BI</I>) y hardware (dispositivos de seguimiento, sensores) que se emplearán para la recolección, procesamiento y análisis de datos.
-
-    .custom-slider.p-5.p-sm-3(data-aos="zoom-in-right")
-      SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-4").p-2.rounded-3
-        .tarjeta--color-primario-10.h-100
-          .tarjeta--16
-          .tarjeta--slider__title.mb-3.text-center.fw-bold Metodología de recolección y procesamiento de datos
-          .tarjeta--slider__content.text-center Describir cómo se obtendrán, limpiarán, validarán, almacenarán y procesarán los datos para asegurar su calidad y utilidad.
-        .tarjeta--color-primario-10.h-100
-          .tarjeta--17
-          .tarjeta--slider__title.mb-3.text-center.fw-bold Frecuencia del monitoreo y <I>reporting</I>
-          .tarjeta--slider__content.text-center Establecer la periodicidad con la que se recopilarán los datos y se generarán los informes de seguimiento (ej. cada hora, diario, semanal, mensual).
-        .tarjeta--color-primario-10.h-100
-          .tarjeta--18
-          .tarjeta--slider__title.mb-3.text-center.fw-bold Roles y responsabilidades
-          .tarjeta--slider__content.text-center Asignar claramente quiénes son los encargados de cada tarea dentro del proceso de monitoreo, desde la recolección hasta el análisis y la difusión de informes.
-        .tarjeta--color-primario-10.h-100 
-          .tarjeta--19
-          .tarjeta--slider__title.mb-3.text-center.fw-bold Presupuesto y recursos
-          .tarjeta--slider__content.text-center Detallar los recursos financieros, tecnológicos y humanos necesarios para la implementación y el mantenimiento del plan.
-        .tarjeta--color-primario-10.h-100 
-          .tarjeta--20
-          .tarjeta--slider__title.mb-3.text-center.fw-bold Mecanismos de retroalimentación y mejora continua
-          .tarjeta--slider__content.text-center Cómo se utilizarán los resultados del monitoreo para la toma de decisiones, la implementación de acciones correctivas y la mejora continua del propio plan de monitoreo.
+      .custom-slider.p-5.p-sm-3(data-aos="zoom-in-right")
+        SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-4").p-2.rounded-3
+          .tarjeta--color-primario-10.h-100
+            .tarjeta--16
+            .tarjeta--slider__title.mb-3.text-center.fw-bold Metodología de recolección y procesamiento de datos
+            .tarjeta--slider__content.text-center Describir cómo se obtendrán, limpiarán, validarán, almacenarán y procesarán los datos para asegurar su calidad y utilidad.
+          .tarjeta--color-primario-10.h-100
+            .tarjeta--17
+            .tarjeta--slider__title.mb-3.text-center.fw-bold Frecuencia del monitoreo y <I>reporting</I>
+            .tarjeta--slider__content.text-center Establecer la periodicidad con la que se recopilarán los datos y se generarán los informes de seguimiento (ej. cada hora, diario, semanal, mensual).
+          .tarjeta--color-primario-10.h-100
+            .tarjeta--18
+            .tarjeta--slider__title.mb-3.text-center.fw-bold Roles y responsabilidades
+            .tarjeta--slider__content.text-center Asignar claramente quiénes son los encargados de cada tarea dentro del proceso de monitoreo, desde la recolección hasta el análisis y la difusión de informes.
+          .tarjeta--color-primario-10.h-100 
+            .tarjeta--19
+            .tarjeta--slider__title.mb-3.text-center.fw-bold Presupuesto y recursos
+            .tarjeta--slider__content.text-center Detallar los recursos financieros, tecnológicos y humanos necesarios para la implementación y el mantenimiento del plan.
+          .tarjeta--color-primario-10.h-100 
+            .tarjeta--20
+            .tarjeta--slider__title.mb-3.text-center.fw-bold Mecanismos de retroalimentación y mejora continua
+            .tarjeta--slider__content.text-center Cómo se utilizarán los resultados del monitoreo para la toma de decisiones, la implementación de acciones correctivas y la mejora continua del propio plan de monitoreo.
 
     .bg_img_4.mb-3
 
