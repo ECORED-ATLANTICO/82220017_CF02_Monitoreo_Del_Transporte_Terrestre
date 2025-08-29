@@ -275,7 +275,7 @@
     separador
 
     #t_3_7.titulo-segundo.color-acento-contenido
-      .h2(data-aos="fade-right") 3.7 Herramientas de monitoreo vial
+      .h2(data-aos="fade-right" style="position: relative; z-index: 10;") 3.7 Herramientas de monitoreo vial
     .mb-3
 
     p.mb-3 La implementación efectiva de los métodos de monitoreo vial requiere del uso de herramientas tecnológicas específicas que permiten capturar, procesar y analizar datos de forma confiable; entre esas tenemos:
