@@ -12,7 +12,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema_2/img_1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 garantizar sistemas de transporte eficientes, accesibles y respetuosos con el medio ambiente, reduciendo emisiones y optimizando recursos. Su importancia radica en que contribuye a la calidad de vida, promueve ciudades más seguras y saludables, y apoya el desarrollo económico responsable. Entre las principales tendencias destacan la electrificación del transporte, el impulso de la movilidad activa (bicicletas y caminatas), la intermodalidad y el uso de tecnologías inteligentes para mejorar la eficiencia y disminuir el impacto ambiental
+        p.mb-0 Buscar garantizar sistemas de transporte eficientes, accesibles y respetuosos con el medio ambiente, reduciendo emisiones y optimizando recursos. Su importancia radica en que contribuye a la calidad de vida, promueve ciudades más seguras y saludables, y apoya el desarrollo económico responsable. Entre las principales tendencias destacan la electrificación del transporte, el impulso de la movilidad activa (bicicletas y caminatas), la intermodalidad y el uso de tecnologías inteligentes para mejorar la eficiencia y disminuir el impacto ambiental
 
     separador
 

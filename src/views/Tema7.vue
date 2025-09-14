@@ -12,9 +12,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema_7/img_30.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Es una herramienta de gestión estratégica e indispensable dentro de cualquier sistema de control y monitoreo del transporte. Su función principal es transformar el vasto volumen de datos brutos, recolectados a través de diversas técnicas de monitoreo (GPS, sensores, telemetría, etc.), en información estructurada, analítica y accionable. Este documento sintetiza y presenta de manera concisa el desempeño de la operación del transporte durante un periodo determinado, sirviendo como un pilar fundamental para la evaluación, la toma de decisiones y la mejora continua. No es un mero compendio de datos, sino un análisis interpretativo que guía la acción.
-        p.mb-0 Dentro del informe se incorpora la generación de intervalos regulares y predefinidos (por ejemplo, diaria, semanal, mensual, trimestral o anualmente), lo cual permite:
-
+        p.mb-0 El informe de seguimiento de monitoreo vial constituye un documento clave para evaluar la efectividad de las acciones implementadas en materia de movilidad y seguridad vial. A través del seguimiento periódico, se recopila información de manera organizada sobre el comportamiento del tránsito, la infraestructura y las condiciones de las vías. Dichos registros permiten analizar los resultados de la ejecución, identificando avances, limitaciones y áreas de mejora, lo que facilita la toma de decisiones informadas y la implementación de estrategias correctivas que fortalezcan la gestión vial.
     separador
 
     #t_7_1.titulo-segundo.color-acento-contenido

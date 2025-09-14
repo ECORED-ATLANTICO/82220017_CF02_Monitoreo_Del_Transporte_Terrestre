@@ -58,7 +58,7 @@
               .tarjeta-numerada.color-primario.p-5.pb-3.pt-3
                 .tarjeta-numerada__numero
                   .h2 4
-                p.mb-0 Planes de monitoreo de infraestructura vial asegurar la buena conservación y funcionamiento de la infraestructura. Monitorean la condición del pavimento, puentes, túneles y señalización para programar mantenimientos y garantizar la durabilidad de la red vial..
+                p.mb-0 Planes de monitoreo de infraestructura vial asegurar la buena conservación y funcionamiento de la infraestructura. Monitorean la condición del pavimento, puentes, túneles y señalización para programar mantenimientos y garantizar la durabilidad de la red vial.
             .col-12.col-lg-12.mb-0
               .tarjeta-numerada.color-primario.p-5.pb-3.pt-3
                 .tarjeta-numerada__numero
@@ -131,7 +131,7 @@
           .tarjeta.color-acento-contenido-5.p-4.rounded-0.mb-3(data-aos='zoom-in-right')
             p.mb-3 <B>Indicadores clave de desempeño (<I>KPIs</I>):</B> las métricas específicas que se utilizarán para medir el progreso hacia los objetivos (ej. <I>OTD</I>, consumo de combustible por km, número de incidentes, velocidad promedio).
             p.mb-0 <B>Fuentes de datos:</B> identificar de dónde provendrá la información (ej. <I>GPS</I>, sensores <I>IoT</I>, tacógrafos digitales, cámaras de tráfico, reportes de conductores, datos de telemática vehicular).
-          p.mb-0(data-aos='zoom-in-right') <B>Tecnologías y herramientas:</B> detallar los sistemas de software (<I>TMS, FMS, BI</I>) y hardware (dispositivos de seguimiento, sensores) que se emplearán para la recolección, procesamiento y análisis de datos.
+          p.mb-0(data-aos='zoom-in-right') <B>Tecnologías y herramientas:</B> detallar los sistemas de <i>software</i> (<I>TMS, FMS, BI</I>) y <i>hardware</i> (dispositivos de seguimiento, sensores) que se emplearán para la recolección, procesamiento y análisis de datos.
 
       .custom-slider.p-5.p-sm-3(data-aos="zoom-in-right")
         SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-4").p-2.rounded-3
@@ -188,7 +188,7 @@
               .row(titulo="")
                 .col-md-12.mb-4.mb-md-0
                   h5 Selección de tecnologías y herramientas
-                  p Elegir los sistemas de software (plataformas de telemetría, <i>software</i> de gestión de flotas, herramientas de <i>BI</i>) y los dispositivos de <i>hardware</i> (<i>trackers GPS</i>, sensores, <i>dashcams</i>) que se ajusten a las necesidades y al presupuesto.             
+                  p Elegir los sistemas de <i>software</i> (plataformas de telemetría, <i>software</i> de gestión de flotas, herramientas de <i>BI</i>) y los dispositivos de <i>hardware</i> (<i>trackers GPS</i>, sensores, <i>dashcams</i>) que se ajusten a las necesidades y al presupuesto.             
               .row(titulo="")
                 .col-md-12.mb-4.mb-md-0
                   h5 Definición de roles, responsabilidades y capacitación

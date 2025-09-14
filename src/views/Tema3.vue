@@ -11,7 +11,7 @@
         figure
           img(src='@/assets/curso/temas/tema_3/img_30.png', class="img-fluid")
       .col-12.col-lg-7 
-        p.mb-0 Gestiona la movilidad mediante sistemas tecnológicos como cámaras y sensores, aplicados en distintos tipos de control de tráfico, infracciones e infraestructura. Sus políticas regulan las prácticas, mientras los criterios de medición valoran velocidad, flujo, accidentalidad y estado de vías. Por otro lado, los métodos incluyen observación directa y análisis automatizado, apoyados en herramientas como software, drones y plataformas inteligentes.
+        p.mb-0 Gestiona la movilidad mediante sistemas tecnológicos como cámaras y sensores, aplicados en distintos tipos de control de tráfico, infracciones e infraestructura. Sus políticas regulan las prácticas, mientras los criterios de medición valoran velocidad, flujo, accidentalidad y estado de vías. Por otro lado, los métodos incluyen observación directa y análisis automatizado, apoyados en herramientas como <i>software</i>, drones y plataformas inteligentes.
 
     separador
 
@@ -38,7 +38,7 @@
         figure
           img(src='@/assets/curso/temas/tema_3/img_2.png', class="img-fluid")
       .col-12.col-lg-9
-        p.mb-3 Es un conjunto integrado de tecnologías, procesos operativos y herramientas analíticas diseñado para observar, registrar, analizar y gestionar en tiempo real el comportamiento del tránsito, las condiciones de la infraestructura vial y la operación vehicular, con el fin de mejorar la seguridad, eficiencia y sostenibilidad del transporte terrestre. Este sistema combina dispositivos como cámaras, sensores, <I>GPS</I>, drones y semáforos inteligentes con plataformas de software que permiten la toma de decisiones automatizadas o asistidas desde centros de control, apoyándose en técnicas de análisis predictivo, inteligencia artificial y gestión de datos masivos.
+        p.mb-3 Es un conjunto integrado de tecnologías, procesos operativos y herramientas analíticas diseñado para observar, registrar, analizar y gestionar en tiempo real el comportamiento del tránsito, las condiciones de la infraestructura vial y la operación vehicular, con el fin de mejorar la seguridad, eficiencia y sostenibilidad del transporte terrestre. Este sistema combina dispositivos como cámaras, sensores, <I>GPS</I>, drones y semáforos inteligentes con plataformas de <i>software</i> que permiten la toma de decisiones automatizadas o asistidas desde centros de control, apoyándose en técnicas de análisis predictivo, inteligencia artificial y gestión de datos masivos.
         h3(data-aos='zoom-in-right').mb-4
           span.label-title Objetivos:
         .row.justify-content-center.align-items-center
@@ -152,7 +152,7 @@
       .tarjeta.bg-color-acento-contenido-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Políticas de gestión inteligente del tráfico")
         .row.justify-content-center.align-items-center.mb-0
           .col-12.col-lg-6.order-2.order-lg-1.mb-0
-            p.mb-0 Fomentan el uso de tecnologías <i>ITS</i> (Sistemas Inteligentes de Transporte) para lograr una gestión dinámica y eficiente del tránsito urbano e interurbano. Ejemplos: Sincronización semafórica, carriles reversibles, control de accesos en zonas de alta congestión.
+            p.mb-0 Fomentan el uso de tecnologías <i>ITS</i> (Sistemas Inteligentes de Transporte) para lograr una gestión dinámica y eficiente del tránsito urbano e interurbano. Ejemplos: sincronización semafórica, carriles reversibles, control de accesos en zonas de alta congestión.
           .col-12.col-lg-6.order-1.order-lg-2.mb-lg-0.mb-3.d-flex.justify-content-center.align-items-center
             figure.text-center.m-0
               img(src='@/assets/curso/temas/tema_3/img_11.png', class="img-fluid")
@@ -258,19 +258,19 @@
               .tarjeta--color-acento-contenido-5.h-100
                 .tarjeta--7
                 .tarjeta--slider__title.mb-3.bg-color-acento-contenido.text-center.fw-bold Monitoreo directo (<I>In Situ</I>).
-                .tarjeta--slider__content.text-center Consiste en la observación presencial y visual del comportamiento vehicular, realizada por personal técnico o mediante dispositivos instalados en el terreno. Aplicación: Inspecciones de tránsito, manual de vigilancia, operativos de control vial.
+                .tarjeta--slider__content.text-center Consiste en la observación presencial y visual del comportamiento vehicular, realizada por personal técnico o mediante dispositivos instalados en el terreno. Aplicación: inspecciones de tránsito, manual de vigilancia, operativos de control vial.
               .tarjeta--color-acento-contenido-5.h-100
                 .tarjeta--8
                 .tarjeta--slider__title.mb-3.bg-color-acento-contenido.text-center.fw-bold Monitoreo automatizado.
-                .tarjeta--slider__content.text-center Utilice sensores y sistemas electrónicos para la captura continua de datos sin necesidad de intervención humana directa. Aplicación: Conteo vehicular, medición de velocidad, monitoreo de condiciones ambientales.
+                .tarjeta--slider__content.text-center Utilice sensores y sistemas electrónicos para la captura continua de datos sin necesidad de intervención humana directa. Aplicación: conteo vehicular, medición de velocidad, monitoreo de condiciones ambientales.
               .tarjeta--color-acento-contenido-5.h-100
                 .tarjeta--9
                 .tarjeta--slider__title.mb-3.bg-color-acento-contenido.text-center.fw-bold Monitoreo remoto.
-                .tarjeta--slider__content.text-center Emplea tecnologías inalámbricas o satelitales para monitorear el estado del tránsito y la infraestructura a distancia, en tiempo real. Aplicación: Sistemas <I>GPS</I>, cámaras <I>IP</I>, estaciones meteorológicas remotas.
+                .tarjeta--slider__content.text-center Emplea tecnologías inalámbricas o satelitales para monitorear el estado del tránsito y la infraestructura a distancia, en tiempo real. Aplicación: sistemas <I>GPS</I>, cámaras <I>IP</I>, estaciones meteorológicas remotas.
               .tarjeta--color-acento-contenido-5.h-100
                 .tarjeta--10
                 .tarjeta--slider__title.mb-3.bg-color-acento-contenido.text-center.fw-bold Monitoreo predictivo.
-                .tarjeta--slider__content.text-center Se basa en el análisis de datos históricos y el uso de modelos estadísticos o algoritmos para anticipar patrones de comportamiento vial. Aplicación: Sistemas de alerta temprana, planificación proactiva de rutas, análisis de riesgo vial. 
+                .tarjeta--slider__content.text-center Se basa en el análisis de datos históricos y el uso de modelos estadísticos o algoritmos para anticipar patrones de comportamiento vial. Aplicación: sistemas de alerta temprana, planificación proactiva de rutas, análisis de riesgo vial. 
 
     separador
 
@@ -293,7 +293,7 @@
         .tarjeta--color-primario-10.h-100
           .tarjeta--13
           .tarjeta--slider__title.mb-3.text-center.fw-bold Sistemas de geoposicionamiento (<I>GPS y GNSS</I>)
-          .tarjeta--slider__content.text-center Uso: Seguimiento y control de flotas, optimización de rutas, monitoreo logístico en tiempo real.
+          .tarjeta--slider__content.text-center Uso: seguimiento y control de flotas, optimización de rutas, monitoreo logístico en tiempo real.
         .tarjeta--color-primario-10.h-100 
           .tarjeta--14
           .tarjeta--slider__title.mb-3.text-center.fw-bold Drones y vehículos autónomos de inspección

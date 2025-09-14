@@ -39,7 +39,7 @@
             .tarjeta--color-primario-10.h-100
               .tarjeta--23
               .tarjeta--slider__title.mb-3.text-center.fw-bold Sensores de velocidad y flujo vehicular.
-              .tarjeta--slider__content.text-center Tipos: Sensores inductivos, piezoeléctricos, radar y láser.
+              .tarjeta--slider__content.text-center Tipos: sensores inductivos, piezoeléctricos, radar y láser.
             .tarjeta--color-primario-10.h-100
               .tarjeta--24
               .tarjeta--slider__title.mb-3.text-center.fw-bold Estaciones meteorológicas móviles o fijas.
