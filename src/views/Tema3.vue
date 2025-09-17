@@ -221,7 +221,7 @@
     .row.justify-content-center.align-items-center
       .col-12.col-lg-7.mb-lg-0.order-2.order-lg-1.mb-3(data-aos='zoom-in-right')
         .tarjeta.color-acento-contenido-5.p-4.rounded-0.mb-0
-          p.mb-3 Importancia de la medición la aplicar estos criterios permite:
+          p.mb-3 Importancia de la medición al aplicar estos criterios permite:
           ul.list-unstyled
             li.d-flex.align-items-start.mb-2.border-bottom.border-dashed.pb-2
               i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color:  #C5AE46; font-size: 15px; line-height: 1.5;")

@@ -8,14 +8,13 @@
           i.fas.fa-info
       h1 Introducción
     .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-lg-3.mb-lg-0.mb-3.d-flex
+      .col-5.col-lg-3.mb-lg-0.mb-3.d-flex
         figure.w-100.d-flex.flex-column
-          img(src='@/assets/curso/introduccion/img_1.png', class="img-fluid").height-100  
+          img(src='@/assets/curso/introduccion/img_1.png', class="img-fluid").height-100
       .col-12.col-lg-9
-        p.mb-3 El componente formativo Monitoreo estratégico del transporte terrestre, explora en profundidad la movilidad inteligente, abordando su concepto, vital importancia y las tendencias que la definen. Se vincula estrechamente con la sostenibilidad en la movilidad, detallando igualmente su concepto, importancia y tendencias para un futuro eficiente y responsable. Un pilar central es el monitoreo vial, desglosando su concepto, los diversos sistemas y tipos de monitoreo, la política que lo rige, los criterios de medición, los métodos empleados y las herramientas disponibles. La planificación se materializa en el plan de monitoreo vial, explicando su concepto, tipos, elementos clave y el procedimiento de elaboración.
-        .cajon.color-secundario-5.p-4.mb-0
-          p.mb-0  Para llevar a cabo este monitoreo, se estudian los dispositivos de seguimiento, sus tipos, modelos y la crucial automatización de sus funciones. Es por ello que se aborda el procedimiento operativo, diferenciando entre el proceso continuo - el proceso sistemático y presentando como resumen final la elaboración de un informe de seguimiento periódico que detalla los resultados de la ejecución.
-
+        p.mb-0 El monitoreo estratégico del transporte terrestre se ha convertido en una herramienta esencial para el desarrollo eficiente, seguro y sostenible de las operaciones logísticas modernas. Mediante el uso de tecnologías como GPS, sensores telemáticos y sistemas de análisis de datos, este proceso permite la supervisión en tiempo real de rutas, vehículos y tiempos de entrega, optimizando la gestión de riesgos, los costos operativos y la atención al cliente. Más allá de su impacto en la eficiencia empresarial, el monitoreo estratégico también contribuye de manera significativa a la seguridad vial y la protección del medio ambiente, promoviendo prácticas de movilidad más responsables y sostenibles.
+                
+    
     figure
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/g4lUJbu9nNs?si=TR2LcdMCuUr4fbYN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)

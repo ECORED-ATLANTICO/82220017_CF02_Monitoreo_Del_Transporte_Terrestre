@@ -23,8 +23,8 @@ export default {
       introduccion:
         '<b> Objetivo:</b> proporcionar a los participantes los conocimientos, competencias técnicas necesarias para analizar, implementar y optimizar sistemas de monitoreo vial que contribuyan a una gestión eficiente, segura y sostenible del transporte. Permitiendo generar criterios de medición y planificación estratégica, se busca que los profesionales sean capaces de tomar decisiones informadas, mejorar la trazabilidad operativa y fortalecer la prevención de riesgos en las redes viales, en alineación con las demandas actuales de monitoreo estratégico y control logístico.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!..',
-      titulo_reprobado: 'VUELVA A INTENTARLO..',
+      titulo_aprobado: '¡BUEN TRABAJO!.',
+      titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
@@ -220,12 +220,12 @@ export default {
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: true,
+              esCorrecta: false,
             },
           ],
           mensaje_correcto:
@@ -488,7 +488,7 @@ export default {
         },
       ],
       mensaje_final_aprobado:
-        '¡Excelente! Te felicito, ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
+        '¡Excelente! Felicitaciones, ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
       mensaje_final_reprobado:
         'No ha superado la actividad. Pero podemos mejorar nuestras respuestas, te invitamos a revisar el componente formativo.',
     },

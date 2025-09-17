@@ -43,27 +43,27 @@
               .tarjeta-numerada.color-primario.p-5.pb-3.pt-3
                 .tarjeta-numerada__numero
                   .h2 1
-                p.mb-0 Planes de monitoreo de seguridad Vial <I>(PESV)</I> reducir accidentes, lesiones y muertes en las vías. Se basan en visión cero, monitorizando la accidentalidad y sus causas, evaluando medidas de seguridad en infraestructura, vehículos, comportamiento de los conductores, atención a víctimas y fortalecimiento institucional.
+                p.mb-0 <b>Planes de monitoreo de seguridad Vial <I>(PESV)</I>: </b>reducir accidentes, lesiones y muertes en las vías. Se basan en visión cero, monitorizando la accidentalidad y sus causas, evaluando medidas de seguridad en infraestructura, vehículos, comportamiento de los conductores, atención a víctimas y fortalecimiento institucional.
             .col-12.col-lg-12.mb-3
               .tarjeta-numerada.color-primario.p-5.pb-3.pt-3
                 .tarjeta-numerada__numero
                   .h2 2
-                p.mb-0 Planes de monitoreo de tráfico y congestión optimizar el flujo vehicular, reducir la congestión y mejorar la eficiencia del sistema. Monitorean volúmenes de tráfico, velocidades, tiempos de viaje y patrones de circulación para identificar cuellos de botella y gestionar la demanda.
+                p.mb-0 <b>Planes de monitoreo de tráfico y congestión</b> optimizar el flujo vehicular, reducir la congestión y mejorar la eficiencia del sistema. Monitorean volúmenes de tráfico, velocidades, tiempos de viaje y patrones de circulación para identificar cuellos de botella y gestionar la demanda.
             .col-12.col-lg-12.mb-3
               .tarjeta-numerada.color-primario.p-5.pb-3.pt-3
                 .tarjeta-numerada__numero
                   .h2 3
-                p.mb-0 Planes de monitoreo ambiental (Vial) evaluar y mitigar el impacto ambiental del tráfico. Incluyen el monitoreo de emisiones, ruido y calidad del aire para apoyar políticas de transporte sostenible y el uso de vehículos más limpios.
+                p.mb-0 <b>Planes de monitoreo ambiental (Vial):</b> evaluar y mitigar el impacto ambiental del tráfico. Incluyen el monitoreo de emisiones, ruido y calidad del aire para apoyar políticas de transporte sostenible y el uso de vehículos más limpios.
             .col-12.col-lg-12.mb-3
               .tarjeta-numerada.color-primario.p-5.pb-3.pt-3
                 .tarjeta-numerada__numero
                   .h2 4
-                p.mb-0 Planes de monitoreo de infraestructura vial asegurar la buena conservación y funcionamiento de la infraestructura. Monitorean la condición del pavimento, puentes, túneles y señalización para programar mantenimientos y garantizar la durabilidad de la red vial.
+                p.mb-0 <b>Planes de monitoreo de infraestructura vial:</b> asegurar la buena conservación y funcionamiento de la infraestructura. Monitorean la condición del pavimento, puentes, túneles y señalización para programar mantenimientos y garantizar la durabilidad de la red vial.
             .col-12.col-lg-12.mb-0
               .tarjeta-numerada.color-primario.p-5.pb-3.pt-3
                 .tarjeta-numerada__numero
                   .h2 5
-                p.mb-0 Planes de monitoreo de obras y contingencia vial gestionar el impacto de cierres o construcciones en el tráfico y la seguridad. Se activan durante obras o eventos especiales para monitorear desvíos y garantizar la fluidez y seguridad.
+                p.mb-0 <b>Planes de monitoreo de obras y contingencia vial:</b> gestionar el impacto de cierres o construcciones en el tráfico y la seguridad. Se activan durante obras o eventos especiales para monitorear desvíos y garantizar la fluidez y seguridad.
 
     .bg_img_3.mb-3
 
